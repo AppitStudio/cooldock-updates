@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This repository manages the Sparkle auto-update feed for **CoolDock** (https://www.dock.cool), the AppIt Studio macOS dock app (bundle id `app.Supadock`, app repo `AppitStudio/cooldock`). It has its own appcast, its own EdDSA key (keychain account `CoolDock`), and its own GitHub releases — nothing is shared with the other AppIt feeds.
+This repository manages the Sparkle auto-update feed for **CoolDock** (https://www.dock.cool), the AppIt Studio macOS dock app (bundle id `com.appit.CoolDock` (Cooldock 1.9.x shipped as `app.Supadock`; 2.0 is a clean cut, no Sparkle path from 1.9.x), app repo `AppitStudio/cooldock`). It has its own appcast, its own EdDSA key (keychain account `CoolDock`), and its own GitHub releases — nothing is shared with the other AppIt feeds.
 
 ## Architecture
 
@@ -31,6 +31,6 @@ python3 scripts/sync_keyper_releases.py --appcast appcast.xml --validate-only
 xmllint --noout appcast.xml
 ```
 
-The full pipeline is driven by the `/full-publish` skill and `publish.sh` in `/Users/asafmazuz/Documents/MacApps/updates` (app key: `cooldock`, publish name `CoolDock`). The version lives in the Xcode project (`MARKETING_VERSION` / `CURRENT_PROJECT_VERSION` in `Supadock.xcodeproj`); minimum system version is macOS 14.0.
+The full pipeline is driven by the `/full-publish` skill and `publish.sh` in `/Users/asafmazuz/Documents/MacApps/updates` (app key: `cooldock`, publish name `CoolDock`). The version lives in the Xcode project (`MARKETING_VERSION` / `CURRENT_PROJECT_VERSION` in `CoolDock.xcodeproj`); minimum system version is macOS 14.0.
 
 GitHub Pages must serve the `main` branch root.
