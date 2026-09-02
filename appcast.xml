@@ -2,5 +2,37 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>CoolDock</title>
+        <item>
+            <title>2.0.0</title>
+            <pubDate>Wed, 02 Sep 2026 15:48:15 +0300</pubDate>
+            <sparkle:version>29</sparkle:version>
+            <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/cooldock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+
+    <h2>CoolDock 2.0 - Now From Appit Studio! 🎉🚀</h2>
+
+    <p>Cooldock is now CoolDock, made by Appit Studio. This is a one-time manual update: download CoolDock 2.0 from <a href="https://www.dock.cool">dock.cool</a>, drag it over your existing Cooldock in Applications, and launch it. Your dock, widgets, profiles and license carry over automatically. Future releases arrive through Check for Updates as usual!</p>
+
+    <h3>✨ What's New</h3>
+    <ul>
+        <li><strong>A New Home:</strong> CoolDock now updates from Appit Studio's own update feed - this is the only release that needs a manual download!</li>
+        <li><strong>Appit Studio Licensing:</strong> New customers activate with an Appit Studio license key; existing Polar keys keep working exactly as before, with the same activation and the same seat!</li>
+        <li><strong>Beta Channel:</strong> Opt in to beta updates from Settings → Updates to try new features early!</li>
+        <li><strong>Consistent App Name:</strong> The app presents itself as CoolDock everywhere in macOS - Finder, the menu bar, notifications and System Settings!</li>
+    </ul>
+
+    <h3>💡 Good To Know</h3>
+    <ul>
+        <li><strong>Your Settings Come Along:</strong> On first launch CoolDock imports your existing dock configuration, widget order, profiles, layout scenario and appearance - nothing to set up again!</li>
+        <li><strong>Permissions Are Asked Once More:</strong> Because the app has a new identity, macOS treats it as a new app. Widgets that need Accessibility, Screen Recording, Calendar, Contacts or similar access ask for permission again the first time they run, and you may see a one-time keychain prompt for your license - choose Always Allow!</li>
+        <li><strong>Launch at Login:</strong> Switch it on again in Settings → General after the update!</li>
+    </ul>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.0.0/CoolDock.dmg" length="21568412" type="application/octet-stream" sparkle:edSignature="KPSXjzE6h6MNs29U+UGm6HnrvdCqn4sE5VeltNbE0vljOfk3+xlFNjnrbV8MNcy4yNEa4xEhpaaLoH6/LPV0AA=="/>
+        </item>
     </channel>
 </rss>
