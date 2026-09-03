@@ -1,10 +1,7 @@
-VERSION: 2.0.0
+VERSION: 2.0.1
 DETAILS:
 
-renamed: Cooldock is now CoolDock by Appit Studio (bundle id com.appit.CoolDock, one-time manual reinstall over 1.9.x)
-new: Updates come from Appit Studio's own Sparkle feed; this is the only release that needs a manual download
-new: Appit Studio license activation (Keyper); existing Polar keys keep working with the same activation and seat
-new: Beta update channel opt-in in Settings > Updates
-improved: The app calls itself CoolDock everywhere in macOS (Finder, menu bar, notifications, System Settings)
-improved: First launch imports the existing dock configuration, widget order, profiles, layout scenario and appearance
-note: macOS asks for widget permissions again and shows a one-time keychain prompt (choose Always Allow); Launch at Login must be re-enabled
+bug fix: A login keychain that cannot be unlocked (forgotten keychain password after a macOS password reset) no longer cuts CoolDock off from your license
+bug fix: Secrets are read without provoking the keychain unlock dialog, so a locked keychain degrades instead of blocking the app
+bug fix: The one-time import of secrets left behind by Cooldock 1.9.x is offered once, never for a locked keychain, and reports success only when nothing was left behind
+new: Settings > Privacy lets you keep secrets in the macOS Keychain (default) or, if the keychain cannot be unlocked, in an encrypted file on this Mac
