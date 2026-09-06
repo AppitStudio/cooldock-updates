@@ -3,16 +3,16 @@
     <channel>
         <title>CoolDock</title>
         <item>
-            <title>2.1.0-beta.1</title>
+            <title>2.0.3-beta.1</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Sun, 06 Sep 2026 19:15:21 +0300</pubDate>
-            <sparkle:version>33</sparkle:version>
-            <sparkle:shortVersionString>2.1.0-beta.1</sparkle:shortVersionString>
+            <pubDate>Sun, 06 Sep 2026 20:40:04 +0300</pubDate>
+            <sparkle:version>34</sparkle:version>
+            <sparkle:shortVersionString>2.0.3-beta.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/cooldock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-        <h2>CoolDock 2.1.0 (Beta 1) - Windows Make Room, Displays Stay Put!</h2>
+        <h2>CoolDock 2.0.3 (Beta 1) - Windows Make Room, Displays Stay Put!</h2>
 
         <h3>What's New</h3>
         <ul>
@@ -70,10 +70,10 @@
             <li>In All Displays mode, Reserve Dock Space keeps windows clear on the main dock's display only, and the bars on every display expand together while a panel is open.</li>
         </ul>
 
-        <p><em>This is a beta build. Please report anything unexpected so it can be fixed before the stable 2.1.0 release!</em></p>
+        <p><em>This is a beta build. Please report anything unexpected so it can be fixed before the stable 2.0.3 release!</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.1.0-beta.1/CoolDock.dmg" length="22123481" type="application/octet-stream" sparkle:edSignature="fFsD9Ko1gBPxtRohu+6wLs3ECaxEnBVW5RAnnjZAxM+1wHi/B7y30RvY3cwjcJJo+tYHBhOWwHl3tNct1TVKBA=="/>
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.0.3-beta.1/CoolDock.dmg" length="22124148" type="application/octet-stream" sparkle:edSignature="LPx0hOI8fPOtF7Ty4/4VgpWVIRi4/Z2j9vNqRgUOFCYsddwtHa+V3iFOxN87c7hhuYgwvIPh/CBQn4noKGSbCw=="/>
         </item>
         <item>
             <title>2.0.2</title>
