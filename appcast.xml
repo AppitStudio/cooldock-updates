@@ -3,6 +3,37 @@
     <channel>
         <title>CoolDock</title>
         <item>
+            <title>2.1.0-beta.1</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Sun, 06 Sep 2026 12:10:35 +0300</pubDate>
+            <sparkle:version>32</sparkle:version>
+            <sparkle:shortVersionString>2.1.0-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/cooldock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+
+        <h2>CoolDock 2.1.0 (Beta 1) - Reserve Dock Space and Smarter Screens</h2>
+
+        <h3>What's New</h3>
+        <ul>
+            <li><strong>Reserve Dock Space:</strong> CoolDock can now reserve screen space for the dock so your windows stay clear of it, powered by the engine ported from ExtraDock 5!</li>
+            <li><strong>Fixed layout grid:</strong> New fixed dock positions and layout presets give you precise control over where the dock sits!</li>
+            <li><strong>Screen identity:</strong> A new display-identity stack keeps the dock on the right screen across monitor reconnects and display changes!</li>
+        </ul>
+
+        <h3>Improvements</h3>
+        <ul>
+            <li><strong>Claude and Codex usage widgets:</strong> Reworked credential reading and usage decoding make both widgets more reliable!</li>
+            <li><strong>Weather widget:</strong> Weather widget refinements!</li>
+        </ul>
+
+        <p><em>This is a beta build. Please report anything unexpected so it can be fixed before the stable 2.1.0 release!</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.1.0-beta.1/CoolDock.dmg" length="21857536" type="application/octet-stream" sparkle:edSignature="F1Ikwr3i1KM0g/DTJ0l8y69phbIiLIPj4hAlIhP70iDT5zr28KTWADgQ2i3u6wfvhRC/w1mlfDphslN5zrxQCA=="/>
+        </item>
+        <item>
             <title>2.0.2</title>
             <pubDate>Thu, 03 Sep 2026 23:24:30 +0300</pubDate>
             <sparkle:version>31</sparkle:version>
