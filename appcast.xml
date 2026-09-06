@@ -5,8 +5,8 @@
         <item>
             <title>2.1.0-beta.1</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Sun, 06 Sep 2026 12:10:35 +0300</pubDate>
-            <sparkle:version>32</sparkle:version>
+            <pubDate>Sun, 06 Sep 2026 19:15:21 +0300</pubDate>
+            <sparkle:version>33</sparkle:version>
             <sparkle:shortVersionString>2.1.0-beta.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
@@ -20,6 +20,7 @@
             <li><strong>Reserve Dock Space:</strong> CoolDock can now reserve screen space for the dock so your windows stay clear of it, powered by the engine ported from ExtraDock 5!</li>
             <li><strong>Fixed layout grid:</strong> New fixed dock positions and layout presets give you precise control over where the dock sits!</li>
             <li><strong>Screen identity:</strong> A new display-identity stack keeps the dock on the right screen across monitor reconnects and display changes!</li>
+            <li><strong>Screens settings:</strong> The display picker moved to Settings → Screens with three modes: One Display, Attached Displays (a priority list, hidden while none is connected) and All Displays (a copy of the dock on every screen). Rename or forget remembered displays and use Identify Displays to flash their names!</li>
         </ul>
 
         <h3>Improvements</h3>
@@ -31,7 +32,7 @@
         <p><em>This is a beta build. Please report anything unexpected so it can be fixed before the stable 2.1.0 release!</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.1.0-beta.1/CoolDock.dmg" length="21857536" type="application/octet-stream" sparkle:edSignature="F1Ikwr3i1KM0g/DTJ0l8y69phbIiLIPj4hAlIhP70iDT5zr28KTWADgQ2i3u6wfvhRC/w1mlfDphslN5zrxQCA=="/>
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.1.0-beta.1/CoolDock.dmg" length="22123481" type="application/octet-stream" sparkle:edSignature="fFsD9Ko1gBPxtRohu+6wLs3ECaxEnBVW5RAnnjZAxM+1wHi/B7y30RvY3cwjcJJo+tYHBhOWwHl3tNct1TVKBA=="/>
         </item>
         <item>
             <title>2.0.2</title>
