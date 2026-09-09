@@ -3,6 +3,60 @@
     <channel>
         <title>CoolDock</title>
         <item>
+            <title>2.0.4</title>
+            <pubDate>Wed, 09 Sep 2026 15:06:45 +0300</pubDate>
+            <sparkle:version>36</sparkle:version>
+            <sparkle:shortVersionString>2.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/cooldock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+
+    <h2>CoolDock 2.0.4 - More AI Widgets, Steadier Spaces! 🤖🖥️</h2>
+
+    <h3>✨ What's New</h3>
+    <ul>
+        <li><strong>More AI Usage Widgets:</strong> Cursor Personal, Antigravity, GLM / Z.ai, Grok, OpenCode, GitHub Copilot, Gemini API and Perplexity join the AI usage family - each with its own connection path and honest readings, never an invented quota!</li>
+        <li><strong>Smarter Claude Usage:</strong> CoolDock now prefers Claude Code's own /usage command and falls back to OAuth, so token and rate-limit states are clearer and there are fewer dead ends!</li>
+        <li><strong>Codex Open Finds ChatGPT:</strong> Open resolves the unified Codex/ChatGPT app first, then legacy installs, then the web - so a click always lands somewhere useful!</li>
+        <li><strong>Click To Refresh:</strong> Usage widgets answer a click with real feedback - refreshing, cooling down or connect - instead of doing nothing!</li>
+    </ul>
+
+    <h3>🖥️ Spaces And Displays</h3>
+    <ul>
+        <li><strong>Spaces Stay Put:</strong> CoolDock checks real Space membership before reshuffling panels, so the dock is far less likely to vanish when you switch desktops or leave Mission Control or fullscreen!</li>
+        <li><strong>Sidecar-Friendly:</strong> Fullscreen on one display (an iPad Sidecar, say) no longer hides CoolDock on every display - only on the display that is actually fullscreen!</li>
+        <li><strong>Tighter Top-Edge Reveal:</strong> The reveal zone follows the dock's content width, so hovering menus and status items outside the bar won't pop the dock open by accident!</li>
+        <li><strong>All Displays Replicas Recover:</strong> If macOS recycles a display's runtime ID, CoolDock recreates that screen's dock copy instead of leaving a ghost!</li>
+    </ul>
+
+    <h3>🔐 Permissions, Calendar And Mail</h3>
+    <ul>
+        <li><strong>Permissions That Tell The Truth:</strong> Widgets seed their real authorization state at launch without prompting, so no more false "denied" flashes when access was already granted!</li>
+        <li><strong>Calendar And Mail:</strong> Mail gating uses the real data-access state, unread scans tolerate damaged messages, and permission warnings deep-link into Settings → Privacy and highlight the right card!</li>
+        <li><strong>Folders And Dock Replace:</strong> Folder reorder and remove persist cleanly, and the dock-replace plus auto-hide setups work like before again!</li>
+    </ul>
+
+    <h3>🐛 Bug Fixes</h3>
+    <ul>
+        <li><strong>Add / Move Widgets:</strong> Drag-and-drop onto the dock works again, with proper drop targets on tile edges, gaps and bar ends; running-app clusters can no longer steal the insertion, and Escape clears the session!</li>
+        <li><strong>Claude Keychain Spam:</strong> Background polls no longer spawn a security subprocess, which ends the repeated Keychain prompts after a token rotation!</li>
+        <li><strong>Claude Rate Limit / Token Invalid:</strong> 401 and 403 are handled separately, rejected tokens are skipped, and rate-limit deadlines survive a relaunch without being hammered by clicks!</li>
+        <li><strong>Keychain Unlock Recovery:</strong> A locked or unreadable Keychain is treated as locked, and recovery stays available from Claude setup or the Privacy storage modes (file storage path preserved)!</li>
+        <li><strong>Claude Code Hooks Check Node:</strong> Before writing a Node path into the Claude Code hooks, CoolDock verifies that Node actually launches and falls back to the one your login shell finds - a broken Homebrew Node no longer silently breaks every hook!</li>
+        <li><strong>Codex Widget Click:</strong> Open and refresh paths are fixed, and unavailable or not-found states show clear feedback instead of silence!</li>
+        <li><strong>Running Indicator:</strong> Quitting an app from CoolDock (WhatsApp, say) clears the running dot, and a relaunch shows a correct indicator again!</li>
+    </ul>
+
+    <h3>What's Next?</h3>
+    <p>We're always working on making CoolDock more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+    <p style="margin-top: 20px;"><em>Thank you for being part of the CoolDock community! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.0.4/CoolDock.dmg" length="23048183" type="application/octet-stream" sparkle:edSignature="fGI19/sZxr59IU9I2vl9zb+AqI/hXnyTOLcsUybvqq474W/fyiH4VLmx+64BCrBuLVQdiT3sacEA/CrxcoDpDw=="/>
+        </item>
+        <item>
             <title>2.0.3</title>
             <pubDate>Mon, 07 Sep 2026 07:05:02 +0300</pubDate>
             <sparkle:version>35</sparkle:version>
