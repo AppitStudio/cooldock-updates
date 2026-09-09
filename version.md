@@ -1,6 +1,10 @@
-VERSION: 2.0.4
+VERSION: 2.0.5
 DETAILS:
 
+new: Export Diagnostics - Choose Help → Export Diagnostics… (or Settings → General → Diagnostics) to save a single report with a redacted snapshot of your dock, screens, widgets and permissions, the last 30 minutes of recorded events and recent app logs - perfect for support when a dock or widget library disappears. Nothing is uploaded
+new: Privacy-First Reports - API keys, tokens, account details, URLs, paths, window titles and personal content never make it into a diagnostics report - every log message is reduced to a reviewed template with its values stripped
+new: Layout Menu In The Menu Bar - The menu bar extra gains a Layout menu with every layout preset, the six Fixed edge/alignment positions as a submenu, and Check for Updates… under Help - no need to open Settings
+new: Reset Layout - Layout → Reset Layout rescues a stuck or vanished dock: it rebuilds a single floating dock on the display under your pointer, clears hiding, edge reservation and stale fullscreen or Mission Control state, and keeps all your widgets and profiles
 new: More AI Usage Widgets - Cursor Personal, Antigravity, GLM / Z.ai, Grok, OpenCode, GitHub Copilot, Gemini API and Perplexity join the AI usage family - each with its own connection path and honest readings, never an invented quota
 new: Smarter Claude Usage - CoolDock now prefers Claude Code's own /usage command and falls back to OAuth, so token and rate-limit states are clearer and there are fewer dead ends
 new: Codex Open Finds ChatGPT - Open resolves the unified Codex/ChatGPT app first, then legacy installs, then the web - so a click always lands somewhere useful
