@@ -3,6 +3,51 @@
     <channel>
         <title>CoolDock</title>
         <item>
+            <title>2.0.7-beta.1</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Sun, 13 Sep 2026 17:45:25 +0300</pubDate>
+            <sparkle:version>40</sparkle:version>
+            <sparkle:shortVersionString>2.0.7-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/cooldock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>CoolDock 2.0.7 (Beta 1) - Every Player Gets Its Due, Every App Stays Reachable! 🎧📐</h2>
+
+        <h3>✨ What's New</h3>
+        <ul>
+            <li><strong>Custom Media Players And Cider:</strong> Now Playing widgets follow any app that publishes to macOS Now Playing - Cider, Pandora clients and similar - keeping that app's own title, artwork, progress and icon. Play/pause and supported previous/next go to that exact app, never to Music, Spotify or a browser that happens to be open!</li>
+            <li><strong>Player-Aware Menus:</strong> Media widget context menus now offer only the transport actions the current player actually supports!</li>
+        </ul>
+
+        <h3>🎬 YouTube And Browser Media</h3>
+        <ul>
+            <li><strong>The Playing Tab Wins:</strong> The tab that is actually playing supplies the title, artwork and timeline - a paused foreground tab, another window or another browser can no longer take it over, and non-YouTube web media no longer picks up YouTube titles or thumbnails!</li>
+            <li><strong>Exact-Tab Transport:</strong> Play, pause and seek go to the browser tab that was authorized, and stop cleanly if that tab closes, navigates away or browser Automation is revoked!</li>
+            <li><strong>Video Preview Stays In Sync:</strong> The floating YouTube preview follows the source through loading and seeks, applies the latest play/pause state once the player is ready, keeps its position when the timeline is unknown, and resynchronizes small seeks while paused!</li>
+        </ul>
+
+        <h3>🎵 Playback Recovery</h3>
+        <ul>
+            <li><strong>Starts Right, Recovers Right:</strong> Launching CoolDock while Music is already playing, or recovering from an empty system reader, now reaches valid playback data - system media reads are bounded and fall back to another reader when the preferred one fails!</li>
+            <li><strong>Found On Any Output:</strong> Custom players are discovered even when the local audio output is idle, such as Bluetooth or remote routes!</li>
+            <li><strong>Clean Song Transitions:</strong> Old tracks no longer reappear after quitting or switching players, while explicit changes - previous/next, A to B to A - show immediately!</li>
+            <li><strong>Controls Without Metadata:</strong> Transport stays available for an authorized player even while system metadata is temporarily unavailable!</li>
+        </ul>
+
+        <h3>🖥️ Dock Layout And Mail</h3>
+        <ul>
+            <li><strong>Show All Fits For Real:</strong> Adaptive fitting now measures actual row widths, your widget spacing, running-app spacing and the panel's own screen margins, so dense app and folder rows no longer extend past the display - remaining overflow scrolls, including on narrower displays in All Displays mode, and your chosen tile size is preserved in Scroll mode!</li>
+            <li><strong>Top-Edge Targets Line Up:</strong> A top dock's content frame now accounts for its top margin, so hit targets and expansion anchors match the visible bar instead of sitting 2 points above it!</li>
+            <li><strong>Mail Refresh Can't Be Swallowed:</strong> A manual Refresh during an older in-progress read now queues a fresh pass, repeated clicks coalesce, and cancelled or replaced work can no longer consume a newer refresh or leave the widget stuck on "unavailable"!</li>
+        </ul>
+
+        <p><em>This is a beta build. Please report anything unexpected so it can be fixed before the stable 2.0.7 release!</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.0.7-beta.1/CoolDock.dmg" length="23457202" type="application/octet-stream" sparkle:edSignature="uWhX4t01AiciIHrJhy7LEtKsy7J8hqXGwY3VVgIPDM0+xOnpguzSewJloeGSzoiNpA8W2c60LBfeuTL0rGwTCQ=="/>
+        </item>
+        <item>
             <title>2.0.6</title>
             <pubDate>Fri, 11 Sep 2026 14:41:18 +0300</pubDate>
             <sparkle:version>39</sparkle:version>
