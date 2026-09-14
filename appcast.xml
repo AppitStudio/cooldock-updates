@@ -5,8 +5,8 @@
         <item>
             <title>2.0.7-beta.1</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Sun, 13 Sep 2026 17:45:25 +0300</pubDate>
-            <sparkle:version>40</sparkle:version>
+            <pubDate>Mon, 14 Sep 2026 16:27:06 +0300</pubDate>
+            <sparkle:version>41</sparkle:version>
             <sparkle:shortVersionString>2.0.7-beta.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
@@ -37,6 +37,7 @@
 
         <h3>🖥️ Dock Layout And Mail</h3>
         <ul>
+            <li><strong>Dock Comes Back After Fullscreen And Sleep:</strong> If the dock went missing from the current desktop after leaving a fullscreen app or waking your Mac, it now re-registers itself on the active Space and reappears on its own - wake recovery rechecks the dock's Space even when macOS sends no Space-change notification!</li>
             <li><strong>Show All Fits For Real:</strong> Adaptive fitting now measures actual row widths, your widget spacing, running-app spacing and the panel's own screen margins, so dense app and folder rows no longer extend past the display - remaining overflow scrolls, including on narrower displays in All Displays mode, and your chosen tile size is preserved in Scroll mode!</li>
             <li><strong>Top-Edge Targets Line Up:</strong> A top dock's content frame now accounts for its top margin, so hit targets and expansion anchors match the visible bar instead of sitting 2 points above it!</li>
             <li><strong>Mail Refresh Can't Be Swallowed:</strong> A manual Refresh during an older in-progress read now queues a fresh pass, repeated clicks coalesce, and cancelled or replaced work can no longer consume a newer refresh or leave the widget stuck on "unavailable"!</li>
@@ -45,7 +46,7 @@
         <p><em>This is a beta build. Please report anything unexpected so it can be fixed before the stable 2.0.7 release!</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.0.7-beta.1/CoolDock.dmg" length="23457202" type="application/octet-stream" sparkle:edSignature="uWhX4t01AiciIHrJhy7LEtKsy7J8hqXGwY3VVgIPDM0+xOnpguzSewJloeGSzoiNpA8W2c60LBfeuTL0rGwTCQ=="/>
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.0.7-beta.1/CoolDock.dmg" length="23460095" type="application/octet-stream" sparkle:edSignature="2LRo/rs3LwWDT6DpWfn1e2rah0gC1DaJj54IqeLru1fs7MKNihvXBq4I2Zgq3ClBdXaVupo13X/RrkqU6xJ3DQ=="/>
         </item>
         <item>
             <title>2.0.6</title>
