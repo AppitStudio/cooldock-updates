@@ -1,20 +1,16 @@
-VERSION: 2.0.6
+VERSION: 2.0.7
 DETAILS:
 
-new: Smart App Menus - Right-click any app - pinned, running, inside a folder or in the Applications gallery - and get actions it actually supports: New Message for any mail client that handles mailto (it composes in that app, not your default client), New Document in TextEdit and Pages, New Spreadsheet in Numbers and New Presentation in Keynote
-new: Open Recent, Per App - Document apps gain an Open Recent submenu built from macOS's own recent-file lists - up to eight files, identical names told apart by their folder, missing files filtered out. Reads happen off the main thread when the menu opens and are cached for 30 seconds
-new: Connect Apple Music And Spotify - Now Playing widgets get optional Connect controls for Apple Music and Spotify in Settings → Privacy, plus Configure Player Access… in their context menu - for when system Now Playing can't provide the details
-improved: Counts And Previews Load Separately - A failed Mail preview no longer wipes your unread count - you'll see "Preview unavailable" instead of a false "No unread mail", and partial counts are marked as partial
-improved: One Mail Refresh Pipeline - Automatic, manual and settings-driven refreshes are coalesced, so a stale or abandoned attempt can no longer hide a working widget or throttle it for 90 seconds
-improved: Bounded Mail Scripting - Previews fetch at most 50 indexed messages with per-step timeouts, account and mailbox counts survive one bad mailbox with partial results, and a transient failure retries once behind a fresh Automation check
-improved: Safer Direct-Store Reads - Mail's database is read through a normal read-only transaction instead of copying live files, read errors fall back to Automation, and the "today" count uses Mail's real timestamps
-improved: Mail In Diagnostics - Export Diagnostics now includes a Mail section with backend, access state, failure phase and timing - never message content, mailbox names or accounts
-improved: Privacy Pane Feedback - Automation actions show progress while a request is in flight, ignore repeat clicks, and route a denial straight to Automation settings
-improved: Steadier Notification Badges - Badge reads are coalesced and bounded, temporary failures keep the last good count instead of clearing it, and an older scan can no longer overwrite newer counts
-improved: Weather Location Recovery - Weather discards stale permission checks, retries through its recovery path on polling, and the help text now distinguishes the system-wide Location Services switch from CoolDock's own permission
-improved: App Folder Gallery - The first page fills every complete row of the viewport instead of a fixed count
-improved: Diagnostics Tell More - Exports now include badge scan health, running-monitor health, per-launcher running/badge flags and configuration-aware Weather state - still with no app names, bundle IDs or values
-bug fix: Connect Really Asks macOS - The Finder, Mail, Notes and browser Connect buttons could report success without ever showing a permission prompt. They now request Automation access the proper way, so the macOS consent dialog appears and the grant sticks
-bug fix: Stopped Apps Launch First - Connect opens the target app if it isn't running, shares one request when you click repeatedly, honours cancellation, and never fabricates a grant when the app fails to start. Passive reads still never prompt or launch anything
-bug fix: Dock Survives Hide Others And Cmd+H - Opt+Cmd-clicking the desktop (Finder's Hide Others) or pressing Cmd+H no longer makes the dock vanish - the dock, its expansion panel and tooltips stay on screen and clickable
-bug fix: Running Dots Reconcile - The regular app poll now reconciles the running-app monitor against macOS, so a missed launch or quit event no longer leaves a stale dot
+new: Custom Media Players And Cider - Now Playing widgets follow any app that publishes to macOS Now Playing (Cider, Pandora clients and similar), keeping that app's own title, artwork, progress and icon; play/pause and supported previous/next go to that exact app, never to Music, Spotify or a browser that happens to be open
+new: Player-Aware Menus - Media widget context menus offer only the transport actions the current player actually supports
+improved: The Playing Tab Wins - The YouTube tab that is actually playing supplies the title, artwork and timeline; a paused foreground tab, another window or another browser can no longer take it over, and non-YouTube web media no longer picks up YouTube titles or thumbnails
+improved: Exact-Tab Transport - Play, pause and seek go to the browser tab that was authorized, and stop cleanly if that tab closes, navigates away or browser Automation is revoked
+improved: Video Preview Stays In Sync - The floating YouTube preview follows the source through loading and seeks, applies the latest play/pause state once the player is ready, keeps its position when the timeline is unknown, and resynchronizes small seeks while paused
+improved: Starts Right, Recovers Right - Launching CoolDock while Music is already playing, or recovering from an empty system reader, now reaches valid playback data; system media reads are bounded and fall back to another reader when the preferred one fails
+improved: Found On Any Output - Custom players are discovered even when the local audio output is idle, such as Bluetooth or remote routes
+improved: Clean Song Transitions - Old tracks no longer reappear after quitting or switching players, while explicit changes (previous/next, A to B to A) show immediately
+improved: Controls Without Metadata - Transport stays available for an authorized player even while system metadata is temporarily unavailable
+bug fix: Dock Comes Back After Fullscreen And Sleep - If the dock went missing from the current desktop after leaving a fullscreen app or waking your Mac, it now re-registers itself on the active Space and reappears on its own; wake recovery rechecks the dock's Space even when macOS sends no Space-change notification
+bug fix: Show All Fits For Real - Adaptive fitting measures actual row widths, widget spacing, running-app spacing and the panel's own screen margins, so dense app and folder rows no longer extend past the display; remaining overflow scrolls, including on narrower displays in All Displays mode, and the chosen tile size is preserved in Scroll mode
+bug fix: Top-Edge Targets Line Up - A top dock's content frame now accounts for its top margin, so hit targets and expansion anchors match the visible bar instead of sitting 2 points above it
+bug fix: Mail Refresh Can't Be Swallowed - A manual Refresh during an older in-progress read now queues a fresh pass, repeated clicks coalesce, and cancelled or replaced work can no longer consume a newer refresh or leave the widget stuck on "unavailable"
