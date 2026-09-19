@@ -1,16 +1,27 @@
-VERSION: 2.0.7
+VERSION: 2.0.8
 DETAILS:
 
-new: Custom Media Players And Cider - Now Playing widgets follow any app that publishes to macOS Now Playing (Cider, Pandora clients and similar), keeping that app's own title, artwork, progress and icon; play/pause and supported previous/next go to that exact app, never to Music, Spotify or a browser that happens to be open
-new: Player-Aware Menus - Media widget context menus offer only the transport actions the current player actually supports
-improved: The Playing Tab Wins - The YouTube tab that is actually playing supplies the title, artwork and timeline; a paused foreground tab, another window or another browser can no longer take it over, and non-YouTube web media no longer picks up YouTube titles or thumbnails
-improved: Exact-Tab Transport - Play, pause and seek go to the browser tab that was authorized, and stop cleanly if that tab closes, navigates away or browser Automation is revoked
-improved: Video Preview Stays In Sync - The floating YouTube preview follows the source through loading and seeks, applies the latest play/pause state once the player is ready, keeps its position when the timeline is unknown, and resynchronizes small seeks while paused
-improved: Starts Right, Recovers Right - Launching CoolDock while Music is already playing, or recovering from an empty system reader, now reaches valid playback data; system media reads are bounded and fall back to another reader when the preferred one fails
-improved: Found On Any Output - Custom players are discovered even when the local audio output is idle, such as Bluetooth or remote routes
-improved: Clean Song Transitions - Old tracks no longer reappear after quitting or switching players, while explicit changes (previous/next, A to B to A) show immediately
-improved: Controls Without Metadata - Transport stays available for an authorized player even while system metadata is temporarily unavailable
-bug fix: Dock Comes Back After Fullscreen And Sleep - If the dock went missing from the current desktop after leaving a fullscreen app or waking your Mac, it now re-registers itself on the active Space and reappears on its own; wake recovery rechecks the dock's Space even when macOS sends no Space-change notification
-bug fix: Show All Fits For Real - Adaptive fitting measures actual row widths, widget spacing, running-app spacing and the panel's own screen margins, so dense app and folder rows no longer extend past the display; remaining overflow scrolls, including on narrower displays in All Displays mode, and the chosen tile size is preserved in Scroll mode
-bug fix: Top-Edge Targets Line Up - A top dock's content frame now accounts for its top margin, so hit targets and expansion anchors match the visible bar instead of sitting 2 points above it
-bug fix: Mail Refresh Can't Be Swallowed - A manual Refresh during an older in-progress read now queues a fresh pass, repeated clicks coalesce, and cancelled or replaced work can no longer consume a newer refresh or leave the widget stuck on "unavailable"
+improved: Hovering No Longer Redraws The Whole Dock - Each tile owns its own hover state, so moving the pointer updates only the tile under it instead of invalidating every widget; the main cause of hover and click lag on large docks
+improved: Labels Driven By The Pointer - App, folder and pinned-window labels are resolved from cached tile frames; the pointer is converted once per dock window instead of once per icon, and no tile rebuilds for a label to appear
+improved: Labels That Keep Up - Name labels appear the instant you hover and sit exactly over the icon; fast moves across Live Dock icons no longer cancel the pending label or make it chase the pointer; window previews keep their short dwell
+improved: No Timer For Plain Labels - The 60 Hz position tracker runs only for interactive window-preview panels; a plain label follows its icon from the cached frame
+improved: Labels Remember Their Place - Hover anchors survive a label hide, and pinned-window tiles register a real anchor like app launchers
+bug fix: Edge Reveal Reverses In Place - A fixed dock interrupted mid-hide slides back from where it is with a duration scaled to the remaining travel instead of replaying the whole animation
+improved: Snappier Slide Timing - The fixed dock slides straight off and on screen (hide 0.18 s, reveal 0.22 s) without the shrink-and-fade that floating placements keep
+improved: Edge Reveal Without The Poll - Show and hide fire exactly when the configured delay expires instead of waiting on a 5 Hz timer; pointer moves inside a stable reveal zone no longer trigger a full layout refresh
+bug fix: Fullscreen Games Detected - Borderless full-display game surfaces on a normal Space count as fullscreen, so the dock hides over them while maximized windows still do not
+bug fix: Click A, Then B, Get B - A delayed restore or launch completion for the first app can no longer steal focus after you moved on; activation happens immediately on click and stale completions are ignored
+bug fix: No Surprise New Windows - Clicking a running app whose windows could not all be enumerated in time no longer sends a reopen event
+bug fix: Clicks Land Where They Should - Every present and dismiss path updates the click-through gate, so clicks no longer fall through or get swallowed by the empty reserve band after a fast show/hide
+improved: A Hung App Can't Stall The Dock - Window scans, launch restores, reserve-space passes and observer registration run with per-element timeouts, a total deadline and window/app caps; heavy apps make progress across passes
+improved: Reserve Work Off The Main Thread - The per-window read, write and verify traversal runs on a dedicated worker and results are applied only while still current
+bug fix: Windows Always Come Back - Toggling Reserve Dock Space off, on and off again no longer lets an old restoration fight a new reservation; interrupted windows keep their original frames and are retried
+improved: Lighter Window Previews - Hovering fetches only that app's windows, refreshes are single-flight, older snapshots cannot overwrite fresher per-app data, and thumbnails are keyed by process
+improved: Applications Gallery Off The Render Path - The gallery snapshot is built off the main thread, skips identical requests and loads icons asynchronously behind placeholders; superseded batches are cancelled
+bug fix: No Stale Icons - A cancelled icon load can no longer publish an outdated image into the cache or the view
+improved: Faster Trash - Trashed folders are no longer sized recursively or re-checked on every render; thumbnail prefetch stays within the visible page plus one
+improved: Contacts That Don't Stutter - The chooser no longer decodes every contact photo up front, rows load their own details, deleted contacts are not re-queried on every render, and the Quick Contacts row opens at its final width
+improved: Leaner Launch - Live-service sync no longer runs twice on the licensed path, repeated licensed signals no longer re-run the restore sequence, and badge tracking rescans only when the tracked set changed
+improved: Media Parsing Off The Main Thread - Now Playing JSON and artwork decoding and the helper's output read no longer hitch media widgets
+improved: Smoother Widget Drags - Inserting or reordering widgets on a large dock uses a one-time index map, and the dock bar no longer re-renders on every running-app count change
+new: Hover Diagnostics In Exports - Export Diagnostics includes content-free hover counters and dock slide animation timing to tell a missed hover from a slow main thread

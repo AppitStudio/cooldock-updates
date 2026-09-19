@@ -80,6 +80,63 @@
 
 <body>
     <!-- newest <div data-sparkle-version="X.Y.Z"> goes first -->
+    <div data-sparkle-version="2.0.8">
+        <h2>CoolDock 2.0.8 - Faster Hover, Snappier Clicks, Lighter Everything! ⚡🖱️</h2>
+
+        <h3>⚡ Hover And Labels Without The Lag</h3>
+        <ul>
+            <li><strong>Hovering No Longer Redraws The Whole Dock:</strong> Each tile now owns its own hover state, so moving the pointer across the dock updates only the tile under it instead of invalidating every widget on every transition - the main cause of hover and click lag on large docks!</li>
+            <li><strong>Labels Driven By The Pointer, Not The View Tree:</strong> App, folder and pinned-window labels are resolved from cached tile frames - the pointer is converted once per dock window instead of once per icon, and no tile has to rebuild for a label to appear!</li>
+            <li><strong>Labels That Keep Up:</strong> App and folder name labels appear the instant you hover and sit exactly over the icon - moving quickly across Live Dock icons no longer cancels the pending label or makes it chase the pointer. Window previews keep their short dwell so expensive preview work still isn't started for every icon!</li>
+            <li><strong>No Timer For Plain Labels:</strong> The 60 Hz position tracker now runs only for interactive window-preview panels - a plain name label follows its icon from the cached frame and only moves when the frame really changed!</li>
+            <li><strong>Labels Remember Their Place:</strong> Hover anchors are no longer discarded when the label hides, so the next hover positions correctly right away - and pinned-window tiles register a real anchor like app launchers do!</li>
+        </ul>
+
+        <h3>🎯 Dock Reveal And Slide</h3>
+        <ul>
+            <li><strong>Edge Reveal Reverses In Place:</strong> A fixed dock (bottom edge, top edge or over the native Dock) that is interrupted mid-hide now slides back from where it is, with a duration scaled to the remaining travel, instead of rewinding to fully hidden and replaying the whole animation - rapid edge re-entry no longer hitches!</li>
+            <li><strong>Snappier Slide Timing:</strong> The fixed dock slides straight off and on screen with ExtraDock's proven timing (hide 0.18 s, reveal 0.22 s), without the shrink-and-fade that floating placements keep!</li>
+            <li><strong>Edge Reveal Without The Poll:</strong> Show and hide fire exactly when your configured delay expires instead of waiting on a 5 Hz timer, and moving the pointer inside a stable reveal zone no longer triggers a full layout refresh!</li>
+            <li><strong>Fullscreen Games Detected:</strong> Borderless full-display game surfaces on a normal Space now count as fullscreen, so the dock hides over them while maximized windows still do not!</li>
+        </ul>
+
+        <h3>🖱️ App Launcher Clicks</h3>
+        <ul>
+            <li><strong>Click A, Then B, Get B:</strong> A delayed window restore or launch completion for the first app can no longer steal focus after you have moved on - activation happens immediately on click, and an app that quit and relaunched is never activated by a stale completion!</li>
+            <li><strong>No Surprise New Windows:</strong> Clicking a running app whose windows could not all be enumerated in time no longer sends a reopen event - only an app with no windows at all is reopened!</li>
+            <li><strong>Clicks Land Where They Should:</strong> After a fast show/hide the dock kept stale hit targets, so clicks fell through or the empty reserve band swallowed them - every present and dismiss path now updates the click-through gate in step!</li>
+        </ul>
+
+        <h3>🪟 Windows And Reserve Dock Space</h3>
+        <ul>
+            <li><strong>A Hung App Can't Stall The Dock:</strong> Window scans, launch restores, reserve-space passes and observer registration now run with per-element timeouts, a total deadline and window/app caps - and heavy apps make progress across passes instead of being skipped!</li>
+            <li><strong>Reserve Work Off The Main Thread:</strong> The per-window read, write and verify traversal runs on a dedicated worker, and results are applied only while they are still current, so animations keep flowing while windows are nudged out of the dock band!</li>
+            <li><strong>Windows Always Come Back:</strong> Toggling Reserve Dock Space off, on and off again no longer lets an old restoration fight a new reservation, and windows interrupted mid-restoration are kept with their original frames and retried until they are back!</li>
+            <li><strong>Lighter Window Previews:</strong> Hovering an icon fetches only that app's windows, refreshes are single-flight, an older full snapshot can no longer overwrite fresher per-app data, and thumbnails are keyed by process so two apps sharing a window ID stop suppressing each other!</li>
+        </ul>
+
+        <h3>🗂️ Galleries And Contacts</h3>
+        <ul>
+            <li><strong>Applications Gallery Off The Render Path:</strong> The gallery snapshot is built off the main thread, no longer persists configuration during render, skips identical requests, and loads icons asynchronously behind placeholders - visible icons never wait behind speculative warming, and superseded batches are cancelled!</li>
+            <li><strong>No Stale Icons:</strong> A cancelled icon load can no longer publish an outdated image into the cache or the view!</li>
+            <li><strong>Faster Trash:</strong> Trashed folders are no longer sized recursively or re-checked on every render, and thumbnail prefetch stays within the visible page plus one!</li>
+            <li><strong>Contacts That Don't Stutter:</strong> The chooser no longer decodes every contact's photo up front, rows load their own details, deleted contacts are not re-queried on every render, and the Quick Contacts row opens at its final width instead of jumping!</li>
+        </ul>
+
+        <h3>🚀 Startup, Media And Diagnostics</h3>
+        <ul>
+            <li><strong>Leaner Launch:</strong> Live-service sync no longer runs twice on the licensed path, repeated licensed signals no longer re-run the restore sequence, and badge tracking rescans only when the tracked set actually changed!</li>
+            <li><strong>Media Parsing Off The Main Thread:</strong> Now Playing JSON and artwork decoding and the helper's output read no longer hitch media widgets!</li>
+            <li><strong>Smoother Widget Drags:</strong> Inserting or reordering widgets on a large dock uses a one-time index map, and the dock bar no longer re-renders on every running-app count change!</li>
+            <li><strong>Hover Diagnostics In Exports:</strong> Export Diagnostics now includes content-free hover counters (pointer samples, target transitions, presentations, anchor misses, average and maximum processing time) and dock slide animation timing, so a missed hover can be told apart from a slow main thread!</li>
+        </ul>
+
+        <h3>What's Next?</h3>
+        <p>We're always working on making CoolDock more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for being part of the CoolDock community! Your feedback drives every improvement we make.</em></p>
+    </div>
+
     <div data-sparkle-version="2.0.7">
         <h2>CoolDock 2.0.7 - Every Player Gets Its Due, Every App Stays Reachable! 🎧📐</h2>
 
