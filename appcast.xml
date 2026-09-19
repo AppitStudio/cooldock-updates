@@ -3,6 +3,55 @@
     <channel>
         <title>CoolDock</title>
         <item>
+            <title>2.0.8-beta.1</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Sat, 19 Sep 2026 08:57:53 +0300</pubDate>
+            <sparkle:version>43</sparkle:version>
+            <sparkle:shortVersionString>2.0.8-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/cooldock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>CoolDock 2.0.8 (Beta 1) - Snappier Clicks, Calmer Windows! ⚡🪟</h2>
+
+        <h3>🖱️ App Launcher And Dock</h3>
+        <ul>
+            <li><strong>Click A, Then B, Get B:</strong> A delayed window restore or launch completion for the first app can no longer steal focus after you have moved on - activation happens immediately on click, and an app that quit and relaunched is never activated by a stale completion!</li>
+            <li><strong>No Surprise New Windows:</strong> Clicking a running app whose windows could not all be enumerated in time no longer sends a reopen event - only an app with no windows at all is reopened!</li>
+            <li><strong>Clicks Land Where They Should:</strong> After a fast show/hide the dock kept stale hit targets, so clicks fell through or the empty reserve band swallowed them - every present and dismiss path now updates the click-through gate in step!</li>
+            <li><strong>Edge Reveal Without The Poll:</strong> Show and hide fire exactly when your configured delay expires instead of waiting on a 5 Hz timer, and moving the pointer inside a stable reveal zone no longer triggers a full layout refresh!</li>
+            <li><strong>Fullscreen Games Detected:</strong> Borderless full-display game surfaces on a normal Space now count as fullscreen, so the dock hides over them while maximized windows still do not!</li>
+        </ul>
+
+        <h3>🪟 Windows And Reserve Dock Space</h3>
+        <ul>
+            <li><strong>A Hung App Can't Stall The Dock:</strong> Window scans, launch restores, reserve-space passes and observer registration now run with per-element timeouts, a total deadline and window/app caps - and heavy apps make progress across passes instead of being skipped!</li>
+            <li><strong>Reserve Work Off The Main Thread:</strong> The per-window read, write and verify traversal runs on a dedicated worker, and results are applied only while they are still current, so animations keep flowing while windows are nudged out of the dock band!</li>
+            <li><strong>Windows Always Come Back:</strong> Toggling Reserve Dock Space off, on and off again no longer lets an old restoration fight a new reservation, and windows interrupted mid-restoration are kept with their original frames and retried until they are back!</li>
+            <li><strong>Lighter Window Previews:</strong> Hovering an icon fetches only that app's windows, refreshes are single-flight, an older full snapshot can no longer overwrite fresher per-app data, and thumbnails are keyed by process so two apps sharing a window ID stop suppressing each other!</li>
+        </ul>
+
+        <h3>🗂️ Galleries And Contacts</h3>
+        <ul>
+            <li><strong>Applications Gallery Off The Render Path:</strong> The gallery snapshot is built off the main thread, no longer persists configuration during render, skips identical requests, and loads icons asynchronously behind placeholders - visible icons never wait behind speculative warming, and superseded batches are cancelled!</li>
+            <li><strong>No Stale Icons:</strong> A cancelled icon load can no longer publish an outdated image into the cache or the view!</li>
+            <li><strong>Faster Trash:</strong> Trashed folders are no longer sized recursively or re-checked on every render, and thumbnail prefetch stays within the visible page plus one!</li>
+            <li><strong>Contacts That Don't Stutter:</strong> The chooser no longer decodes every contact's photo up front, rows load their own details, deleted contacts are not re-queried on every render, and the Quick Contacts row opens at its final width instead of jumping!</li>
+        </ul>
+
+        <h3>🚀 Startup And Media</h3>
+        <ul>
+            <li><strong>Leaner Launch:</strong> Live-service sync no longer runs twice on the licensed path, repeated licensed signals no longer re-run the restore sequence, and badge tracking rescans only when the tracked set actually changed!</li>
+            <li><strong>Media Parsing Off The Main Thread:</strong> Now Playing JSON and artwork decoding and the helper's output read no longer hitch media widgets!</li>
+            <li><strong>Smoother Widget Drags:</strong> Inserting or reordering widgets on a large dock uses a one-time index map, and the dock bar no longer re-renders on every running-app count change!</li>
+        </ul>
+
+        <p><em>This is a beta build. Please report anything unexpected so it can be fixed before the stable 2.0.8 release!</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.0.8-beta.1/CoolDock.dmg" length="23619690" type="application/octet-stream" sparkle:edSignature="3+MMV0NTVfE60rvTxOqIPSifvPI18W8rt6uEDCBxCcJ0aqaNNavr9kKxdmngnS/kCvIJOOphGIs0VwnPBw7YCw=="/>
+        </item>
+        <item>
             <title>2.0.7</title>
             <pubDate>Tue, 15 Sep 2026 13:40:07 +0300</pubDate>
             <sparkle:version>42</sparkle:version>
