@@ -3,6 +3,52 @@
     <channel>
         <title>CoolDock</title>
         <item>
+            <title>2.1.0-beta.1</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Sun, 27 Sep 2026 22:30:44 +0300</pubDate>
+            <sparkle:version>49</sparkle:version>
+            <sparkle:shortVersionString>2.1.0-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/cooldock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>CoolDock 2.1.0 (Beta 1) - AI Assistant, Smart Hiding And True Glass! 🤖✨</h2>
+
+        <h3>🤖 AI Assistant (New!)</h3>
+        <ul>
+            <li><strong>Connect Your AI:</strong> Settings → AI Assistant lets Claude, Codex, Cursor, VS Code and other MCP clients read and configure your running CoolDock - no Node, Python or extra server to install!</li>
+            <li><strong>Read-Only Until You Say So:</strong> The connection starts read-only; turn on Allow Changes when you want an assistant to edit your docks, and it can never grant itself that access!</li>
+            <li><strong>Allow for This Session:</strong> The approval sheet can now approve an assistant's whole chat session, so bulk changes no longer ask one operation at a time!</li>
+            <li><strong>YOLO Mode:</strong> Prefer no prompts at all? Turn on YOLO mode to skip approval sheets while Allow Changes is on - only you can switch it on, never the assistant!</li>
+        </ul>
+
+        <h3>🪟 Hide on Window Hover (New!)</h3>
+        <ul>
+            <li><strong>Out Of Your Way:</strong> A new Layout setting smoothly fades the dock out when an app window overlaps it and brings it back once the space is clear - per display!</li>
+            <li><strong>Smooth Every Time:</strong> Fades stay smooth through autohide and layout changes, respect Reduce Motion, and clicks pass through to the window underneath while the dock is hidden!</li>
+        </ul>
+
+        <h3>✨ Glass That Looks Right</h3>
+        <ul>
+            <li><strong>Liquid Glass Ignores Focus:</strong> The dock's glass looks exactly the same whether CoolDock or another app is in front - no more switching between frosty and clear!</li>
+            <li><strong>Light And Dark Glass, Fixed:</strong> Light and Dark Glass now use the system Dock's glass, so switching to them while CoolDock is running no longer looks dark and black-rimmed until a relaunch!</li>
+        </ul>
+
+        <h3>🧩 Widgets And Polish</h3>
+        <ul>
+            <li><strong>Refreshed Widget Library:</strong> New library artwork for App Stack, Folder Stack, Finder, Shelf, Dock sections and Links!</li>
+            <li><strong>Sturdier App Volume:</strong> Per-app volume uses the documented macOS audio tap description for more reliable audio capture!</li>
+        </ul>
+
+        <h3>What's Next?</h3>
+        <p>This is a beta - please tell us how the AI Assistant and Hide on Window Hover work for you! More features and improvements are on the way based on your feedback!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for testing CoolDock betas! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.1.0-beta.1/CoolDock.dmg" length="40429629" type="application/octet-stream" sparkle:edSignature="ZvvCOw9wNd4Pj1Rjr86LpBoCyoZ0qvqZjd8wn6jGMC47L4aqnIeDwbipgtC3sbodJCGkYHde7NmPTS53qRhGAg=="/>
+        </item>
+        <item>
             <title>2.0.9</title>
             <pubDate>Sun, 27 Sep 2026 13:21:24 +0300</pubDate>
             <sparkle:version>48</sparkle:version>
