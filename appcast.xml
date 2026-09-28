@@ -5,14 +5,25 @@
         <item>
             <title>2.1.0-beta.1</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Sun, 27 Sep 2026 22:30:44 +0300</pubDate>
-            <sparkle:version>49</sparkle:version>
+            <pubDate>Mon, 28 Sep 2026 19:16:55 +0300</pubDate>
+            <sparkle:version>50</sparkle:version>
             <sparkle:shortVersionString>2.1.0-beta.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/cooldock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
         <h2>CoolDock 2.1.0 (Beta 1) - AI Assistant, Smart Hiding And True Glass! 🤖✨</h2>
+
+        <h3>🆕 New In Build 50</h3>
+        <ul>
+            <li><strong>Wallpapers By Mood:</strong> AI assistants can now search and apply CoolDock wallpapers by mood, style, color, time of day, season and even the weather - ask for "something moody" or "a wallpaper that fits the weather in Sofia" and get a real wallpaper from the gallery, matched right on your Mac!</li>
+            <li><strong>Floating Dock Reaches The Menu Bar:</strong> Drag the floating dock all the way up under the menu bar; in the top half of a display the profile switcher moves below the bar so nothing gets cut off!</li>
+            <li><strong>Drag Handle Fixed:</strong> The floating dock's drag handle now works when you have more than one profile!</li>
+            <li><strong>Drag By The Background:</strong> Moving the floating dock by its background now works exactly like the handle - it no longer stops short of the menu bar, gets re-centered by macOS tiling, or switches profiles mid-move, and it keeps up with the pointer even when the Mac is busy!</li>
+            <li><strong>All Displays, Independent Docks:</strong> Each All Displays copy of the dock now has its own drag handle, profile switcher, hover, scrolling and text fields (search, rename, calculator, converter, emoji) instead of steering the main dock!</li>
+            <li><strong>⌘-Drag Reorder Crash Fixed:</strong> Reordering widgets with ⌘-drag no longer crashes CoolDock!</li>
+            <li><strong>A Much Lighter Dock:</strong> The dock remembers its layout instead of recomputing it on every mouse move and redraw, so hovering and moving windows use far less CPU!</li>
+        </ul>
 
         <h3>🤖 AI Assistant (New!)</h3>
         <ul>
@@ -46,7 +57,7 @@
         <p style="margin-top: 20px;"><em>Thank you for testing CoolDock betas! Your feedback drives every improvement we make.</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.1.0-beta.1/CoolDock.dmg" length="40429629" type="application/octet-stream" sparkle:edSignature="ZvvCOw9wNd4Pj1Rjr86LpBoCyoZ0qvqZjd8wn6jGMC47L4aqnIeDwbipgtC3sbodJCGkYHde7NmPTS53qRhGAg=="/>
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.1.0-beta.1/CoolDock.dmg" length="40729145" type="application/octet-stream" sparkle:edSignature="D2pIoqZfTazPc1aTdCPCYtiJEo1muyRnEVqr5bZU6raGKN9lT3eLpQax/qOH4KAATpInZzqvW1af9DKLWCYUDw=="/>
         </item>
         <item>
             <title>2.0.9</title>
