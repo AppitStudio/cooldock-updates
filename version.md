@@ -1,14 +1,18 @@
-VERSION: 2.0.9
+VERSION: 2.1.0
 DETAILS:
 
-bug fix: Same Colour, Any Location - Folder tints start from the stock folder icon, so drive, iCloud, tagged and custom-icon folders match; Red is red and Brown is no longer Orange
-bug fix: Stack View Keeps Your Colour - A coloured folder in stack view tints the tile behind its files
-improved: Stacks Show Subfolders - The stack preview includes subfolders like the macOS Dock
-improved: Icon Changes Show Right Away - Finder icon or tag changes update the dock without restarting CoolDock
-bug fix: Finder Opens A Window Again - Clicking Finder with all windows closed opens a new window (regression in 2.0.8)
-bug fix: Profile Swipes Stay Out Of Your Drags - ⌘-drags, widget picker and Applications gallery drags no longer switch profiles mid-drag
-new: Drag Running Apps To Pin Them - ⌘-drag a running app between pinned apps pins it at the drop position
-bug fix: No More Stolen Focus - Switching Spaces no longer pulls keyboard focus back into the Search widget
-bug fix: Habit Tracker Keeps Up - Fields keep focus while typing and the editor is no longer clipped
-bug fix: Clocks Keep Ticking - Flip clock digits settle on the latest value and clocks keep seconds after a profile switch
-improved: Cleaner License Screen - Scrollable activation step, full-width Activate button, clear activated state, Check Again when a version is blocked, storage and privacy details in a disclosure
+new: AI Assistant - Claude, Codex, Cursor, VS Code and other MCP clients can read and configure CoolDock (read-only until Allow Changes; Allow for This Session; YOLO mode)
+new: Wallpapers By Mood - AI assistants can search and apply wallpapers by mood, style, color, time of day, season and weather
+new: Drag Apps To Rearrange - opt-in plain-drag rearranging like the macOS Dock; ⌘-drag switches profiles
+new: Hide on Window Hover - the dock fades out when a window overlaps it, per display
+improved: Floating dock reaches the menu bar and moves by its background like the handle
+improved: All Displays copies have their own handle, profile switcher, hover, scrolling and text fields
+improved: Reserve Dock Space applies on every display that shows a dock
+improved: Reveal at the Bottom slides above a visible macOS Dock; window previews keep an auto-hide dock revealed
+improved: Liquid Glass ignores focus; Light and Dark Glass use the system Dock glass
+improved: Much lower CPU use - the dock caches its layout geometry
+improved: Refreshed widget library artwork; sturdier per-app volume capture
+bug fix: Floating dock drag handle works with multiple profiles
+bug fix: ⌘-drag widget reorder crash
+bug fix: Invisible full-screen overlays no longer hide the dock as fullscreen
+bug fix: Profile swipe works with Background Sounds in the dock
