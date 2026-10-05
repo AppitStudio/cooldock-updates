@@ -3,6 +3,38 @@
     <channel>
         <title>CoolDock</title>
         <item>
+            <title>2.1.1</title>
+            <pubDate>Mon, 05 Oct 2026 20:42:21 +0300</pubDate>
+            <sparkle:version>53</sparkle:version>
+            <sparkle:shortVersionString>2.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/cooldock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>CoolDock 2.1.1 - Steadier And Smoother! 🛠️✨</h2>
+
+        <h3>🐞 Bug Fixes</h3>
+        <ul>
+            <li><strong>No More Crash At Launch:</strong> CoolDock no longer quits shortly after launch when App Volume is on!</li>
+            <li><strong>Running Apps Show Up:</strong> Picking where running apps go in Settings now shows them in the dock right away!</li>
+            <li><strong>System Temperature On M5 Macs:</strong> The Temperature widgets now show readings on Macs with M5 chips!</li>
+            <li><strong>Calmer Profile Switcher:</strong> With Liquid Glass, the profile switcher's border no longer flickers when it appears!</li>
+        </ul>
+
+        <h3>⚡ Improvements</h3>
+        <ul>
+            <li><strong>Lighter And Smoother:</strong> CoolDock uses less CPU while idle, and hovering, revealing the dock and switching profiles feel smoother!</li>
+        </ul>
+
+        <h3>What's Next?</h3>
+        <p>We're always working on making CoolDock more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for being part of the CoolDock community! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.1.1/CoolDock.dmg" length="40879606" type="application/octet-stream" sparkle:edSignature="FSyF8UITem1zafWEhjn98KUAkV8vmeqgqsv0k/9OUPtqcZ1biWjSz5TbR24wCck77VnB5v17ZGcDL8COE5heBw=="/>
+        </item>
+        <item>
             <title>2.1.0</title>
             <pubDate>Thu, 01 Oct 2026 14:02:59 +0300</pubDate>
             <sparkle:version>52</sparkle:version>
