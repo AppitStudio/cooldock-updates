@@ -3,6 +3,46 @@
     <channel>
         <title>CoolDock</title>
         <item>
+            <title>2.2.0-beta.1</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Thu, 08 Oct 2026 23:20:10 +0300</pubDate>
+            <sparkle:version>54</sparkle:version>
+            <sparkle:shortVersionString>2.2.0-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/cooldock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>CoolDock 2.2.0 (Beta 1) - Browser Profiles And Windows That Stay Put! 🧭✨</h2>
+
+        <h3>🆕 New</h3>
+        <ul>
+            <li><strong>New Window with Profile:</strong> Right-click Chrome, Brave, Edge, Vivaldi or Chromium in your dock and open a new window in any of your browser profiles - work, personal or school, one click away!</li>
+        </ul>
+
+        <h3>🐞 Bug Fixes</h3>
+        <ul>
+            <li><strong>New Windows Open Where You Are:</strong> New Window from the dock's right-click menu - plus Safari's New Private Window and Notion's New Window - now opens on the desktop you're on instead of jumping to another Space!</li>
+            <li><strong>Notion New Window:</strong> Notion's New Window now really opens a new window instead of a new page!</li>
+            <li><strong>Badges Clear When Apps Quit:</strong> A badge count no longer stays stuck on the dock after you quit an app that isn't kept in the macOS Dock!</li>
+            <li><strong>Running Dots Like The macOS Dock:</strong> Apps that keep running only in the menu bar after you close their windows (like Slack or WhatsApp) no longer show a running dot, so the dock no longer looks like they're open!</li>
+            <li><strong>No More Overlap With The macOS Dock:</strong> When the macOS Dock is always visible at the bottom, an Always Visible CoolDock now sits neatly above it instead of overlapping it!</li>
+            <li><strong>Cleaner Customizing:</strong> The remove buttons you see while customizing are smaller and no longer cover widget readouts like CPU % or the clock, or the tile next door!</li>
+        </ul>
+
+        <h3>⚡ Improvements</h3>
+        <ul>
+            <li><strong>Faster Help With Updates:</strong> Export Diagnostics now includes the last 3 days of the software update log, so we can sort out update problems faster - and the export is quick!</li>
+        </ul>
+
+        <h3>What's Next?</h3>
+        <p>This is a beta - please tell us how New Window with Profile and the new window placement work for you! More features and improvements are on the way based on your feedback!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for testing CoolDock betas! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.2.0-beta.1/CoolDock.dmg" length="41092638" type="application/octet-stream" sparkle:edSignature="/j6OQwe989ncpXUDiIAxBMgjPRcwWqaGo+/p0CmOTnx+nqPxGGPHgmxhsmimvTXWgNLfSEVoMNSI5eOQgGiwAg=="/>
+        </item>
+        <item>
             <title>2.1.1</title>
             <pubDate>Mon, 05 Oct 2026 20:42:21 +0300</pubDate>
             <sparkle:version>53</sparkle:version>
