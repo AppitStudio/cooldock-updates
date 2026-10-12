@@ -3,6 +3,64 @@
     <channel>
         <title>CoolDock</title>
         <item>
+            <title>2.2.0-beta.2</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Mon, 12 Oct 2026 13:53:10 +0300</pubDate>
+            <sparkle:version>55</sparkle:version>
+            <sparkle:shortVersionString>2.2.0-beta.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/cooldock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>CoolDock 2.2.0 (Beta 2) - New Windows Stay On Your Desktop! 🪟✨</h2>
+
+        <h3>🆕 New In Beta 2</h3>
+        <ul>
+            <li><strong>New Window Really Stays Put:</strong> New Window and New Private/Incognito Window for Chrome, Brave, Edge, Vivaldi and Safari now open on the desktop you're on - even when the browser's other windows live on another Space! Safari profiles work too!</li>
+            <li><strong>A Clear Message Instead Of A Jump:</strong> If a new window can't be opened, CoolDock now tells you why instead of quietly switching you to another Space!</li>
+        </ul>
+
+        <h3>🐞 Bug Fixes (Beta 2)</h3>
+        <ul>
+            <li><strong>Correct Badge Numbers:</strong> Badges like "99+" or "1,234" now show the right number instead of "1", and iPhone Mirroring labels no longer show up as a badge!</li>
+            <li><strong>More Running Apps Show Up:</strong> Safari web apps, Chrome Beta, Dev and Canary, and Chrome web apps now appear with your running apps, just like in the macOS Dock!</li>
+            <li><strong>Docks Come Back After The Screensaver:</strong> With docks on several displays, every dock now comes back after the screensaver, screen lock or display sleep!</li>
+        </ul>
+
+        <h3>⚡ Improvements (Beta 2)</h3>
+        <ul>
+            <li><strong>Faster Help With Badges, Running Apps And Updates:</strong> Export Diagnostics now includes more detail about badges, running apps and app updates, so we can sort out problems faster!</li>
+        </ul>
+
+        <h3>🆕 Also New In Beta 1</h3>
+        <ul>
+            <li><strong>New Window with Profile:</strong> Right-click Chrome, Brave, Edge, Vivaldi or Chromium in your dock and open a new window in any of your browser profiles - work, personal or school, one click away!</li>
+        </ul>
+
+        <h3>🐞 Bug Fixes (Beta 1)</h3>
+        <ul>
+            <li><strong>New Windows Open Where You Are:</strong> New Window from the dock's right-click menu - plus Safari's New Private Window and Notion's New Window - now opens on the desktop you're on instead of jumping to another Space!</li>
+            <li><strong>Notion New Window:</strong> Notion's New Window now really opens a new window instead of a new page!</li>
+            <li><strong>Badges Clear When Apps Quit:</strong> A badge count no longer stays stuck on the dock after you quit an app that isn't kept in the macOS Dock!</li>
+            <li><strong>Running Dots Like The macOS Dock:</strong> Apps that keep running only in the menu bar after you close their windows (like Slack or WhatsApp) no longer show a running dot, so the dock no longer looks like they're open!</li>
+            <li><strong>No More Overlap With The macOS Dock:</strong> When the macOS Dock is always visible at the bottom, an Always Visible CoolDock now sits neatly above it instead of overlapping it!</li>
+            <li><strong>Cleaner Customizing:</strong> The remove buttons you see while customizing are smaller and no longer cover widget readouts like CPU % or the clock, or the tile next door!</li>
+        </ul>
+
+        <h3>⚡ Improvements (Beta 1)</h3>
+        <ul>
+            <li><strong>Faster Help With Updates:</strong> Export Diagnostics now includes the last 3 days of the software update log, so we can sort out update problems faster - and the export is quick!</li>
+        </ul>
+
+        <h3>What's Next?</h3>
+        <p>This is a beta - please tell us how New Window, badges and running apps work for you! More features and improvements are on the way based on your feedback!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for testing CoolDock betas! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.2.0-beta.2/CoolDock.dmg" length="41146493" type="application/octet-stream" sparkle:edSignature="TUTQ4jdYEFPfFJYSQhGstwKhtovmKvKL0bXiQDj2DTZmIe6JOkJSNBOJXL2/SMIqCcqX+jA84559QfhETGVuCg=="/>
+        </item>
+        <item>
             <title>2.2.0-beta.1</title>
             <sparkle:channel>beta</sparkle:channel>
             <pubDate>Thu, 08 Oct 2026 23:20:10 +0300</pubDate>
