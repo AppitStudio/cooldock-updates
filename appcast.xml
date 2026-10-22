@@ -5,14 +5,20 @@
         <item>
             <title>2.2.1-beta.1</title>
             <sparkle:channel>beta</sparkle:channel>
-            <pubDate>Mon, 19 Oct 2026 12:58:26 +0300</pubDate>
-            <sparkle:version>57</sparkle:version>
+            <pubDate>Thu, 22 Oct 2026 16:53:32 +0300</pubDate>
+            <sparkle:version>58</sparkle:version>
             <sparkle:shortVersionString>2.2.1-beta.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/cooldock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
         <h2>CoolDock 2.2.1 (Beta 1) - Smoother, Steadier And Lighter On Your Disk! 🛠️✨</h2>
+
+        <h3>🆕 New In Build 58</h3>
+        <ul>
+            <li><strong>Hover Previews Right After Launch:</strong> Hover previews show your windows as soon as CoolDock starts or updates, instead of "No previewable windows" until you turned the setting off and on again!</li>
+            <li><strong>Reopened Windows Come To The Front:</strong> Clicking Mail, Canva or another app after closing its last window with the red X now brings the new window to the front instead of opening it behind other apps!</li>
+        </ul>
 
         <h3>🆕 New</h3>
         <ul>
@@ -62,7 +68,7 @@
         <p style="margin-top: 20px;"><em>Thank you for testing CoolDock betas! Your feedback drives every improvement we make.</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.2.1-beta.1/CoolDock.dmg" length="41869472" type="application/octet-stream" sparkle:edSignature="MHqYoaxB3XvRsau+ifGQKaL1lT0FCz+rVtcFsmXUGrvQEFXTJXoU5JbS0FBoNoVitqKdIEml6k3OgK5o6p1WDQ=="/>
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.2.1-beta.1/CoolDock.dmg" length="41885089" type="application/octet-stream" sparkle:edSignature="BsPZjgS2K+Eejm3qR8MXnVCpaIiG9u706ud9jj0VGayxJat99EwyRwKmiJLj4zJBhd2C8juztCVytVHThDfPBg=="/>
         </item>
         <item>
             <title>2.2.0</title>
