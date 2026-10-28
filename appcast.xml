@@ -3,6 +3,76 @@
     <channel>
         <title>CoolDock</title>
         <item>
+            <title>2.2.2-beta.1</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Wed, 28 Oct 2026 06:03:51 +0200</pubDate>
+            <sparkle:version>60</sparkle:version>
+            <sparkle:shortVersionString>2.2.2-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/cooldock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>CoolDock 2.2.2 (Beta 1) - Take Your Dock Anywhere! 🚚✨</h2>
+
+        <h3>🆕 What's New</h3>
+        <ul>
+            <li><strong>Move Profiles To Another Mac:</strong> Settings &gt; Profiles &gt; Export Profiles… saves the profiles you pick to a file - on your other Mac, choose Import Profiles… or just double-click it. You see a preview first, and your own profiles are never replaced!</li>
+            <li><strong>Restore A Backup:</strong> Settings &gt; Profiles &gt; Restore from Backup… shows what a backup would change before you restore it!</li>
+            <li><strong>Switch Profiles From Anywhere:</strong> Use cooldock:// links, the new "Switch CoolDock Profile" Shortcuts action, or a CoolDock Focus filter that switches profiles when a Focus turns on!</li>
+            <li><strong>Folders In Two Clicks:</strong> Right-click an app in the dock and choose Add to Folder or New Folder with - no dragging needed!</li>
+            <li><strong>Todoist Widgets:</strong> See your next task or your task list, tick tasks off, and Quick Add new ones right from the dock!</li>
+            <li><strong>Fantastical:</strong> With Fantastical as the Calendar widget's app, events open on their day and you can make a New Event in Fantastical!</li>
+            <li><strong>AI Usage Your Way:</strong> Codex and Claude usage widgets can show the percent left and open their app when you click them!</li>
+            <li><strong>Temperature When It Matters:</strong> Pick "Show When Above" on a Temperature widget and it only appears when your Mac runs hot!</li>
+            <li><strong>Peek From The Edge:</strong> New "Show at Screen Edge While Hidden" brings the dock back over a fullscreen app when you rest the pointer on the screen edge!</li>
+            <li><strong>ChatGPT (Codex):</strong> Settings &gt; AI Assistant now lists ChatGPT (Codex) too!</li>
+        </ul>
+
+        <h3>⚡ Improvements</h3>
+        <ul>
+            <li><strong>Windows Stay Above The Dock:</strong> Replace the macOS Dock now keeps zoomed and new windows above CoolDock, just like the macOS Dock!</li>
+            <li><strong>Menus Beside The Icon:</strong> Right-click menus open next to the item you clicked, like the macOS Dock!</li>
+            <li><strong>Smoother Window Previews:</strong> Previews switch between apps without a jump and use much less CPU!</li>
+            <li><strong>Snappier Widget Pop-ups:</strong> Focus, media and Dock Structure pop-ups open without a stutter!</li>
+            <li><strong>File Shelf Looks Like A Shelf:</strong> The File Shelf keeps its tray icon with a file count!</li>
+            <li><strong>Room Between Folders:</strong> Folders side by side keep a clear gap!</li>
+            <li><strong>Full Month Names:</strong> The Date widget shows long months like October in full!</li>
+            <li><strong>AI Assistant Changes Stay:</strong> Setup panels no longer undo a change your AI assistant made while the panel was open!</li>
+        </ul>
+
+        <h3>🐞 Bug Fixes</h3>
+        <ul>
+            <li><strong>Your macOS Dock Comes Back:</strong> Quitting CoolDock puts back the macOS Dock settings you had before - every time!</li>
+            <li><strong>Minimized Apps Restore:</strong> Clicking an app whose windows are all minimized brings them back, even for apps like LINE!</li>
+            <li><strong>Now Playing Keeps The Song:</strong> The song and cover stay when you switch profiles, and Spotify album covers show up!</li>
+            <li><strong>Reserve Dock Space Keeps Working:</strong> If macOS gets stuck on a window, CoolDock recovers by itself - no relaunch needed!</li>
+            <li><strong>No More Frozen Choosers:</strong> More Folders, Choose App, Change Icon and other file choosers open on top and never freeze the dock!</li>
+            <li><strong>One Panel At A Time:</strong> Opening Widgets closes an open folder gallery instead of drawing both together!</li>
+            <li><strong>A Quit CoolDock Stays Quit:</strong> Starting a new AI assistant session no longer reopens CoolDock!</li>
+            <li><strong>Right Preview In Settings:</strong> The Fixed bottom layout card shows CoolDock above the macOS Dock, where it really goes!</li>
+            <li><strong>No Focus Ring:</strong> Dock widgets no longer show a blue keyboard focus box!</li>
+            <li><strong>Steadier:</strong> Fixed a rare crash when CoolDock checks its own windows or fullscreen apps, and Export Diagnostics keeps more helpful details!</li>
+        </ul>
+
+        <h3>🧪 What To Test</h3>
+        <ul>
+            <li>Quit CoolDock after trying a few layouts - is your macOS Dock exactly as before?</li>
+            <li>With Replace the macOS Dock, zoom a window - does it stop above the dock, and keep doing so over a long day?</li>
+            <li>Export your profiles and import them again (or on another Mac), then try Restore from Backup.</li>
+            <li>Switch profiles with a cooldock:// link, a Shortcut or a Focus.</li>
+            <li>Right-click an app: New Folder with and Add to Folder.</li>
+            <li>Minimized apps, Now Playing with Spotify, More Folders, and the new Todoist and AI usage options.</li>
+        </ul>
+
+        <h3>What's Next?</h3>
+        <p>This is a beta build - please tell us how profile export and import, profile switching, the macOS Dock on quit and Reserve Dock Space work for you! More features and improvements are on the way based on your feedback!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for testing CoolDock betas! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.2.2-beta.1/CoolDock.dmg" length="42924655" type="application/octet-stream" sparkle:edSignature="Tdn8gt/GJzfA7MXWxnOjI4XcvM+w+xlBPre0ZSRynG4CF3fwsv8HiwEgpufvfEbRIAc51BjWWGiI/6Mjr1htDQ=="/>
+        </item>
+        <item>
             <title>2.2.1</title>
             <pubDate>Thu, 22 Oct 2026 18:14:52 +0300</pubDate>
             <sparkle:version>59</sparkle:version>
