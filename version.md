@@ -1,31 +1,36 @@
-VERSION: 2.2.1
+VERSION: 2.2.2
 DETAILS:
 
-new: Album Covers From Music - Now Playing shows the cover straight from Music when you've allowed CoolDock to access Music - and if a song shows no cover, right-click Now Playing and choose "Show Album Covers from Music…"
-new: DataFast Account Tokens - The DataFast widget now works with account tokens too - just add your Website ID
-bug fix: Hover Previews Right After Launch - Hover previews show your windows as soon as CoolDock starts or updates, instead of "No previewable windows" until you turned the setting off and on again
-bug fix: Reopened Windows Come To The Front - Clicking Mail, Canva or another app after closing its last window with the red X now brings the new window to the front instead of opening it behind other apps
-bug fix: Running Apps Stay Hidden - If you had turned off running apps in your dock, they stay off after updating
-bug fix: Clicks Work Like The macOS Dock - Clicking a running app brings back all its windows, just like the macOS Dock - Outlook now shows its main window instead of only a reminder or message window
-bug fix: Hover Previews Show Every Window - Slow apps show their windows instead of "No previewable windows", windows you hid with Cmd-H are labelled Hidden instead of Minimized, and windows on other desktops show up too
-bug fix: Folder Stack Preview Stays Fresh - A folder's Stack preview updates as soon as you add or remove files in that folder
-bug fix: Export Diagnostics Always Works - Export Diagnostics no longer stays greyed out if its save window disappears - click it again to bring the window back
-bug fix: Floating Dock Fits The Screen - A full floating dock now stays inside the screen, and Adapt Size keeps shrinking your icons further before the dock starts to scroll
-bug fix: Background Sounds At One Level - Every Background Sound now plays at the same volume and loops smoothly without a click, and sounds your Mac doesn't have are no longer offered
-bug fix: The Right Album Cover - Now Playing shows the album's own cover and never a guess from a different album
-bug fix: Clicks Beside The Dock - With auto-hide at the bottom of the screen, clicks next to the revealed dock reach the apps underneath again
-bug fix: Back On Every Desktop - After you leave a fullscreen video, the dock shows up on all your desktops again
-bug fix: Docks On Displays Above Your Main One - Docks on a display placed above your main display (common with DisplayLink) are no longer cut in half at the top of the screen
-bug fix: Trash Without Full Disk Access - The Trash widget keeps up with your Trash without Full Disk Access, and only checks when something changed
-bug fix: Badges Right After Launch - Badges now show up on running apps right after CoolDock starts
-bug fix: File Shelf Keeps Your Files - Switching to a profile without a File Shelf no longer empties your File Shelf
-bug fix: Backups Restore Again - Profiles and backups with Quick Toggles, Habit, Calendar, Reminders or Studio widgets restore properly again
-bug fix: Clearer Lock Labels - Locked TamaDocky, Focus and Layout widgets now tell you the real reason they're locked
-bug fix: AI Assistant Changes - Approving a change from your AI assistant, like removing a widget, no longer crashes CoolDock
-bug fix: Widgets That Talk To Other Apps - Two widgets reading from apps like Mail or Music at the same moment no longer crash CoolDock
-bug fix: Apps Opening And Quitting - Fixed a crash that could happen while apps were opening or quitting
-bug fix: More Steady Moments - CoolDock no longer crashes when no display is connected or when a widget's saved data is damaged
-improved: Much Less Disk Writing - CoolDock writes far less to your disk, so macOS no longer warns about it - and caches, clipboard history and backups now have sensible size limits
-improved: Lighter On Memory - The old dock is freed right away after a rebuild or Reset Layout
-improved: Smoother Window Previews - Window previews open without a stutter, even the very first time after launch
-improved: Better Help After The Screensaver - Export Diagnostics now records screen lock and unlock and why CoolDock last quit, so we can find out faster why a dock went missing
+new: Move Profiles To Another Mac - Settings > Profiles > Export Profiles… saves the profiles you pick to a file - on your other Mac, choose Import Profiles… or just double-click it. You see a preview first, and your own profiles are never replaced
+new: Restore A Backup - Settings > Profiles > Restore from Backup… shows what a backup would change before you restore it
+new: Switch Profiles From Anywhere - Use cooldock:// links, the new "Switch CoolDock Profile" Shortcuts action, or a CoolDock Focus filter that switches profiles when a Focus turns on
+new: Folders In Two Clicks - Right-click an app in the dock and choose Add to Folder or New Folder with - no dragging needed
+new: Two Versions Of One App - Keep two versions of the same app on the dock, like Photoshop 2025 and 2026, and each one gets its own running dot, click, Quit, previews and window list
+new: Todoist Widgets - See your next task or your task list, tick tasks off, and Quick Add new ones right from the dock
+new: Fantastical - With Fantastical as the Calendar widget's app, events open on their day and you can make a New Event in Fantastical
+new: AI Usage Your Way - Codex and Claude usage widgets can show the percent left and open their app when you click them
+new: Temperature When It Matters - Pick "Show When Above" on a Temperature widget and it only appears when your Mac runs hot
+new: Peek From The Edge - New "Show at Screen Edge While Hidden" brings the dock back over a fullscreen app when you rest the pointer on the screen edge
+new: ChatGPT (Codex) - Settings > AI Assistant now lists ChatGPT (Codex) too
+bug fix: The Dock Comes Back After Fullscreen - With Hide During Fullscreen on, leaving a fullscreen app no longer leaves the dock invisible on the glass styles - it slides back with all its icons, every time
+bug fix: Stays On Every Desktop - The dock now stays on all your desktops after you use a fullscreen app, instead of only the one you were on
+bug fix: Links, Shortcuts And Focus Never Hang - If macOS stops answering a permission check, cooldock:// links, the "Switch CoolDock Profile" Shortcuts action and Focus filters keep working instead of freezing
+bug fix: Your Music Comes Back - Pause a video that took over the Now Playing widget and it goes right back to Spotify or Music if they are still playing
+bug fix: Now Playing Keeps The Song - The song and cover stay when you switch profiles, and Spotify album covers show up
+bug fix: Your macOS Dock Comes Back - Quitting CoolDock puts back the macOS Dock settings you had before - every time
+bug fix: Minimized Apps Restore - Clicking an app whose windows are all minimized brings them back, even for apps like LINE
+bug fix: Reserve Dock Space Keeps Working - If macOS gets stuck on a window, CoolDock recovers by itself - no relaunch needed
+bug fix: No More Frozen Choosers - More Folders, Choose App, Change Icon and other file choosers open on top and never freeze the dock
+bug fix: One Panel At A Time - Opening Widgets closes an open folder gallery instead of drawing both together
+bug fix: A Quit CoolDock Stays Quit - Starting a new AI assistant session no longer reopens CoolDock
+bug fix: Right Preview In Settings - The Fixed bottom layout card shows CoolDock above the macOS Dock, where it really goes
+bug fix: No Focus Ring - Dock widgets no longer show a blue keyboard focus box
+bug fix: Steadier - Fixed a rare crash when CoolDock checks its own windows or fullscreen apps, and Export Diagnostics keeps more helpful details
+improved: Windows Stay Above The Dock - Replace the macOS Dock now keeps zoomed and new windows above CoolDock, just like the macOS Dock
+improved: Menus Beside The Icon - Right-click menus open next to the item you clicked, like the macOS Dock
+improved: Even Smoother Window Previews - Previews switch between apps without a jump and use much less CPU
+improved: Snappier Widget Pop-ups - Focus, media and Dock Structure pop-ups open without a stutter
+improved: File Shelf Looks Like A Shelf - The File Shelf keeps its tray icon with a file count
+improved: Room Between Folders - Folders side by side keep a clear gap
+improved: Full Month Names - The Date widget shows long months like October in full
+improved: AI Assistant Changes Stay - Setup panels no longer undo a change your AI assistant made while the panel was open
