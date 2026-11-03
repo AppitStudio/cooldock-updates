@@ -5,6 +5,7 @@ on:
     paths:
       - appcast.xml
       - scripts/sync_keyper_releases.py
+      - scripts/test_stable_release_registration.py
       - .github/workflows/register-keyper-releases.yml
   push:
     branches:
@@ -34,6 +35,9 @@ jobs:
           else
             echo "has_items=false" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Test stable release registration
+        run: python3 -m unittest discover -s scripts -p 'test_stable_release_registration.py' -v
 
       - name: Validate retained appcast metadata
         if: steps.feed.outputs.has_items == 'true'
