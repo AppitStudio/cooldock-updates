@@ -3,6 +3,58 @@
     <channel>
         <title>CoolDock</title>
         <item>
+            <title>2.2.3-beta.1</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Wed, 04 Nov 2026 19:58:57 +0200</pubDate>
+            <sparkle:version>64</sparkle:version>
+            <sparkle:shortVersionString>2.2.3-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/cooldock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>CoolDock 2.2.3 (Beta 1) - Private Screens And Steadier Updates! 🕶️🔄</h2>
+
+        <h3>🆕 What's New</h3>
+        <ul>
+            <li><strong>Hide The Dock From Screen Sharing:</strong> Settings &gt; Privacy &gt; Screen Sharing keeps the dock on your screen but out of Zoom, Meet and Teams shares, recordings and screenshots!</li>
+            <li><strong>Previews Without The Layout Grid:</strong> Turn off "Window layout controls on previews" in Settings &gt; Dock &gt; Apps and a click on a preview simply brings that window to the front!</li>
+            <li><strong>More AI Usage Widgets Your Way:</strong> Cursor, Copilot, GLM, Grok, OpenCode and Antigravity widgets can show the percent left and open the provider's website when you click them!</li>
+        </ul>
+
+        <h3>⚡ Improvements</h3>
+        <ul>
+            <li><strong>Steadier Updates:</strong> The update installer now starts in its own helper, and if macOS ever blocks an update, CoolDock asks you to quit and reopen instead of freezing!</li>
+            <li><strong>Ready For macOS 27:</strong> Permission messages now say "Device Control and Data Access", the new name for Accessibility on macOS 27!</li>
+            <li><strong>More World Clock Cities:</strong> San Francisco, Austin, Boston, Munich, Tel Aviv and 14 more cities now show up in search!</li>
+            <li><strong>Better Diagnostics:</strong> Export Diagnostics keeps more details about updates so we can help you faster!</li>
+        </ul>
+
+        <h3>🐞 Bug Fixes</h3>
+        <ul>
+            <li><strong>Swap At The Bottom:</strong> CoolDock stays out of the way while a macOS Dock right-click menu is open - no more two docks at once!</li>
+            <li><strong>Hide/Show Shortcut:</strong> One press is enough again after Reset Layout and with docks on all displays!</li>
+            <li><strong>Now Playing Cover:</strong> The first song after you resume Music shows its cover!</li>
+            <li><strong>Stacked Displays:</strong> Window layout controls place the window on its own display when one screen sits above another!</li>
+        </ul>
+
+        <h3>🧪 What To Test</h3>
+        <ul>
+            <li>Update to this beta and then Check for Updates again - does it install smoothly with no freeze or error?</li>
+            <li>With Swap at the Bottom, right-click an app in the macOS Dock - does CoolDock stay hidden until the menu closes?</li>
+            <li>Turn on Hide dock from screen sharing and take a screenshot or share your screen - is the dock left out?</li>
+            <li>Press your Hide/Show shortcut after Reset Layout - does one press do it?</li>
+            <li>Try previews with the layout controls off, and the new AI usage widget options.</li>
+        </ul>
+
+        <h3>What's Next?</h3>
+        <p>This is a beta build - please tell us how updates, screen sharing and Swap at the Bottom work for you! More features and improvements are on the way based on your feedback!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for testing CoolDock betas! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.2.3-beta.1/CoolDock.dmg" length="43143567" type="application/octet-stream" sparkle:edSignature="21d2xaB4dT8WsfOiTjlS8x6OQ4Dk4CAwr6GC+jk2eyXWuujkYfNye/6ThgGCHtZbV8nAym+kKYpjCe1Cy96GAQ=="/>
+        </item>
+        <item>
             <title>2.2.2</title>
             <pubDate>Mon, 02 Nov 2026 21:37:03 +0200</pubDate>
             <sparkle:version>63</sparkle:version>
