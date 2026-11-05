@@ -3,6 +3,68 @@
     <channel>
         <title>CoolDock</title>
         <item>
+            <title>2.2.3-beta.2</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Thu, 05 Nov 2026 21:12:21 +0200</pubDate>
+            <sparkle:version>65</sparkle:version>
+            <sparkle:shortVersionString>2.2.3-beta.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/cooldock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>CoolDock 2.2.3 (Beta 2) - Private Windows, New Colors And A Lighter Battery! 🎨🔋</h2>
+
+        <h3>🆕 New In Beta 2</h3>
+        <ul>
+            <li><strong>Click The Active App To Hide It:</strong> New setting in Settings &gt; Dock &gt; Apps &gt; "Clicking the active app" - pick Hide and a click on the icon of the app you're using puts it away! None, the default, keeps today's macOS Dock behavior!</li>
+            <li><strong>New Private Window For More Browsers:</strong> Right-click Opera (also GX, Air, beta and developer), Chromium, Arc, Firefox (also Developer Edition and Nightly) or Zen for New Window and New Private Window! If CoolDock needs a permission for it, a clear message tells you what to allow!</li>
+            <li><strong>A Brand New Color Picker:</strong> Every color setting - Pixel Clock, Overlap Clock, the Focus timer, clicker and metronome, divider lines, the File Shelf icon and the Trash badge - opens the same picker, with the Appit palette first and any custom color one tab away!</li>
+            <li><strong>Easier On Your Battery:</strong> CoolDock uses much less power while it sits idle - loading placeholders stop shimmering after a few seconds, and Quick Toggles and app badges no longer start background helpers every few seconds!</li>
+            <li><strong>File Shelf Takes Browser Images:</strong> Images dragged out of Opera, Chrome or Safari, photos from Photos and other dragged-in files now land on the File Shelf, instead of lighting it up and adding nothing!</li>
+        </ul>
+
+        <h3>🆕 Also New In Beta 1</h3>
+        <ul>
+            <li><strong>Hide The Dock From Screen Sharing:</strong> Settings &gt; Privacy &gt; Screen Sharing keeps the dock on your screen but out of Zoom, Meet and Teams shares, recordings and screenshots!</li>
+            <li><strong>Previews Without The Layout Grid:</strong> Turn off "Window layout controls on previews" in Settings &gt; Dock &gt; Apps and a click on a preview simply brings that window to the front!</li>
+            <li><strong>More AI Usage Widgets Your Way:</strong> Cursor, Copilot, GLM, Grok, OpenCode and Antigravity widgets can show the percent left and open the provider's website when you click them!</li>
+        </ul>
+
+        <h3>⚡ Improvements (Beta 1)</h3>
+        <ul>
+            <li><strong>Steadier Updates:</strong> The update installer now starts in its own helper, and if macOS ever blocks an update, CoolDock asks you to quit and reopen instead of freezing!</li>
+            <li><strong>Ready For macOS 27:</strong> Permission messages now say "Device Control and Data Access", the new name for Accessibility on macOS 27!</li>
+            <li><strong>More World Clock Cities:</strong> San Francisco, Austin, Boston, Munich, Tel Aviv and 14 more cities now show up in search!</li>
+            <li><strong>Better Diagnostics:</strong> Export Diagnostics keeps more details about updates so we can help you faster!</li>
+        </ul>
+
+        <h3>🐞 Bug Fixes (Beta 1)</h3>
+        <ul>
+            <li><strong>Swap At The Bottom:</strong> CoolDock stays out of the way while a macOS Dock right-click menu is open - no more two docks at once!</li>
+            <li><strong>Hide/Show Shortcut:</strong> One press is enough again after Reset Layout and with docks on all displays!</li>
+            <li><strong>Now Playing Cover:</strong> The first song after you resume Music shows its cover!</li>
+            <li><strong>Stacked Displays:</strong> Window layout controls place the window on its own display when one screen sits above another!</li>
+        </ul>
+
+        <h3>🧪 What To Test</h3>
+        <ul>
+            <li>Update from beta 1 with Check for Updates - does it install smoothly with no freeze or error?</li>
+            <li>Set "Clicking the active app" to Hide, open an app and click its icon - does it hide, and does the next click bring it back?</li>
+            <li>Right-click Opera, Arc, Firefox or Zen - do New Window and New Private Window open the right kind of window?</li>
+            <li>Drag an image from a browser or Photos onto the open File Shelf - does it show up?</li>
+            <li>Change a color in Focus, File Shelf or Pixel Clock settings - does the new picker work and keep your color?</li>
+            <li>Leave CoolDock running for a few hours - does your battery last longer than on 2.2.2?</li>
+        </ul>
+
+        <h3>What's Next?</h3>
+        <p>This is a beta build - please tell us how the new click setting, browser menus, File Shelf drops and battery life work for you! More features and improvements are on the way based on your feedback!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for testing CoolDock betas! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.2.3-beta.2/CoolDock.dmg" length="43533593" type="application/octet-stream" sparkle:edSignature="HoP0667XTbixfQFA0+hG76eecFoK1bGdIVn99iekgNHOkh5PrWbbvyOW0sQ3EDh5HH/oXdOXOxDM4OTlTqzXDA=="/>
+        </item>
+        <item>
             <title>2.2.3-beta.1</title>
             <sparkle:channel>beta</sparkle:channel>
             <pubDate>Wed, 04 Nov 2026 19:58:57 +0200</pubDate>
