@@ -3,6 +3,57 @@
     <channel>
         <title>CoolDock</title>
         <item>
+            <title>2.2.3</title>
+            <pubDate>Tue, 10 Nov 2026 16:31:30 +0200</pubDate>
+            <sparkle:version>67</sparkle:version>
+            <sparkle:shortVersionString>2.2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/cooldock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>CoolDock 2.2.3 - Drag It Out, Drop It Right - And Easier On Your Battery! 📂🔋</h2>
+
+        <h3>🆕 What's New</h3>
+        <ul>
+            <li><strong>Hide The Dock From Screen Sharing:</strong> Settings &gt; Privacy &gt; Screen Sharing keeps the dock on your screen but out of Zoom, Meet and Teams shares, recordings and screenshots!</li>
+            <li><strong>A Brand New Color Picker:</strong> Pixel Clock and Overlap Clock colors open the new picker, with the Appit palette first and any custom color one tab away!</li>
+            <li><strong>Folder Colors From The Appit Palette:</strong> Right-click a folder &gt; Folder Color for the Appit palette colors, or choose Custom Color… to pick any color right at the folder. Deep and near-black colors now show as a dark folder instead of a black block!</li>
+            <li><strong>Click The Active App To Hide It:</strong> New setting in Settings &gt; Dock &gt; Apps &gt; "Clicking the active app" - pick Hide and a click on the icon of the app you're using puts it away. None, the default, keeps today's macOS Dock behavior!</li>
+            <li><strong>New Private Window For More Browsers:</strong> Right-click Opera (also GX, Air, beta and developer), Chromium, Arc, Firefox (also Developer Edition and Nightly) or Zen for New Window and New Private Window. If CoolDock needs a permission for it, a clear message tells you what to allow!</li>
+            <li><strong>File Shelf Takes Browser Images:</strong> Images dragged out of Opera, Chrome or Safari, photos from Photos and other dragged-in files now land on the File Shelf, instead of lighting it up and adding nothing!</li>
+            <li><strong>Previews Without The Layout Grid:</strong> Turn off "Window layout controls on previews" in Settings &gt; Dock &gt; Apps and a click on a preview simply brings that window to the front!</li>
+            <li><strong>More AI Usage Widgets Your Way:</strong> Cursor, Copilot, GLM, Grok, OpenCode and Antigravity widgets can show the percent left and open the provider's website when you click them!</li>
+        </ul>
+
+        <h3>⚡ Improvements</h3>
+        <ul>
+            <li><strong>Easier On Your Battery:</strong> CoolDock uses much less power while it sits idle. Loading placeholders stop shimmering after a few seconds, Quick Toggles and app badges no longer start background helpers every few seconds, and while your Mac is locked CoolDock pauses its clocks, badges and other background updates. Clocks that show hours and minutes update right on the minute!</li>
+            <li><strong>Steadier Updates:</strong> The update installer now starts in its own helper, and if macOS ever blocks an update, CoolDock asks you to quit and reopen instead of freezing!</li>
+            <li><strong>Ready For macOS 27:</strong> Permission messages now say "Device Control and Data Access", the new name for Accessibility on macOS 27!</li>
+            <li><strong>More World Clock Cities:</strong> San Francisco, Austin, Boston, Munich, Tel Aviv and 14 more cities now show up in search!</li>
+            <li><strong>Better Diagnostics:</strong> Export Diagnostics keeps more details about updates so we can help you faster!</li>
+        </ul>
+
+        <h3>🐞 Bug Fixes</h3>
+        <ul>
+            <li><strong>Drop Files On Your Dock Apps:</strong> Drag a file out of the File Shelf, a folder, Screenshots or Trash gallery onto an app on the dock and it opens in that app - no more copies landing on your Desktop!</li>
+            <li><strong>No More "Missing" Cards:</strong> Dropping a File Shelf item back onto its own shelf adds nothing, instead of a broken "Missing" card. Files dragged from your other CoolDock galleries onto the File Shelf show the real file too!</li>
+            <li><strong>Drag Out Waits For The Drop:</strong> With "Remove after drag out" or "Ask every time" on, an item only leaves the shelf once you drop it somewhere else - press Escape or cancel the drag and it stays. "Ask every time" now asks after the drop, instead of stopping your drag!</li>
+            <li><strong>Swap At The Bottom:</strong> CoolDock stays out of the way while a macOS Dock right-click menu is open - no more two docks at once!</li>
+            <li><strong>Hide/Show Shortcut:</strong> One press is enough again after Reset Layout and with docks on all displays!</li>
+            <li><strong>Now Playing Cover:</strong> The first song after you resume Music shows its cover!</li>
+            <li><strong>Stacked Displays:</strong> Window layout controls place the window on its own display when one screen sits above another!</li>
+        </ul>
+
+        <h3>What's Next?</h3>
+        <p>We're always working on making CoolDock more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for being part of the CoolDock community! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.2.3/CoolDock.dmg" length="43608039" type="application/octet-stream" sparkle:edSignature="niC9G2ip1yMEZJxseiCccrxSVj3gQjVuNm4spPaO94vk8yr/E1GY+uXAzcHog96gunjlAS7lcZ1/piRg0HHfCg=="/>
+        </item>
+        <item>
             <title>2.2.3-beta.3</title>
             <sparkle:channel>beta</sparkle:channel>
             <pubDate>Fri, 06 Nov 2026 18:44:14 +0200</pubDate>

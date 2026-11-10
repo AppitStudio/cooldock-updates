@@ -1,36 +1,23 @@
-VERSION: 2.2.2
+VERSION: 2.2.3
 DETAILS:
 
-new: Move Profiles To Another Mac - Settings > Profiles > Export Profiles… saves the profiles you pick to a file - on your other Mac, choose Import Profiles… or just double-click it. You see a preview first, and your own profiles are never replaced
-new: Restore A Backup - Settings > Profiles > Restore from Backup… shows what a backup would change before you restore it
-new: Switch Profiles From Anywhere - Use cooldock:// links, the new "Switch CoolDock Profile" Shortcuts action, or a CoolDock Focus filter that switches profiles when a Focus turns on
-new: Folders In Two Clicks - Right-click an app in the dock and choose Add to Folder or New Folder with - no dragging needed
-new: Two Versions Of One App - Keep two versions of the same app on the dock, like Photoshop 2025 and 2026, and each one gets its own running dot, click, Quit, previews and window list
-new: Todoist Widgets - See your next task or your task list, tick tasks off, and Quick Add new ones right from the dock
-new: Fantastical - With Fantastical as the Calendar widget's app, events open on their day and you can make a New Event in Fantastical
-new: AI Usage Your Way - Codex and Claude usage widgets can show the percent left and open their app when you click them
-new: Temperature When It Matters - Pick "Show When Above" on a Temperature widget and it only appears when your Mac runs hot
-new: Peek From The Edge - New "Show at Screen Edge While Hidden" brings the dock back over a fullscreen app when you rest the pointer on the screen edge
-new: ChatGPT (Codex) - Settings > AI Assistant now lists ChatGPT (Codex) too
-bug fix: The Dock Comes Back After Fullscreen - With Hide During Fullscreen on, leaving a fullscreen app no longer leaves the dock invisible on the glass styles - it slides back with all its icons, every time
-bug fix: Stays On Every Desktop - The dock now stays on all your desktops after you use a fullscreen app, instead of only the one you were on
-bug fix: Links, Shortcuts And Focus Never Hang - If macOS stops answering a permission check, cooldock:// links, the "Switch CoolDock Profile" Shortcuts action and Focus filters keep working instead of freezing
-bug fix: Your Music Comes Back - Pause a video that took over the Now Playing widget and it goes right back to Spotify or Music if they are still playing
-bug fix: Now Playing Keeps The Song - The song and cover stay when you switch profiles, and Spotify album covers show up
-bug fix: Your macOS Dock Comes Back - Quitting CoolDock puts back the macOS Dock settings you had before - every time
-bug fix: Minimized Apps Restore - Clicking an app whose windows are all minimized brings them back, even for apps like LINE
-bug fix: Reserve Dock Space Keeps Working - If macOS gets stuck on a window, CoolDock recovers by itself - no relaunch needed
-bug fix: No More Frozen Choosers - More Folders, Choose App, Change Icon and other file choosers open on top and never freeze the dock
-bug fix: One Panel At A Time - Opening Widgets closes an open folder gallery instead of drawing both together
-bug fix: A Quit CoolDock Stays Quit - Starting a new AI assistant session no longer reopens CoolDock
-bug fix: Right Preview In Settings - The Fixed bottom layout card shows CoolDock above the macOS Dock, where it really goes
-bug fix: No Focus Ring - Dock widgets no longer show a blue keyboard focus box
-bug fix: Steadier - Fixed a rare crash when CoolDock checks its own windows or fullscreen apps, and Export Diagnostics keeps more helpful details
-improved: Windows Stay Above The Dock - Replace the macOS Dock now keeps zoomed and new windows above CoolDock, just like the macOS Dock
-improved: Menus Beside The Icon - Right-click menus open next to the item you clicked, like the macOS Dock
-improved: Even Smoother Window Previews - Previews switch between apps without a jump and use much less CPU
-improved: Snappier Widget Pop-ups - Focus, media and Dock Structure pop-ups open without a stutter
-improved: File Shelf Looks Like A Shelf - The File Shelf keeps its tray icon with a file count
-improved: Room Between Folders - Folders side by side keep a clear gap
-improved: Full Month Names - The Date widget shows long months like October in full
-improved: AI Assistant Changes Stay - Setup panels no longer undo a change your AI assistant made while the panel was open
+new: Hide The Dock From Screen Sharing - Settings > Privacy > Screen Sharing keeps the dock on your screen but out of Zoom, Meet and Teams shares, recordings and screenshots
+new: A Brand New Color Picker - Pixel Clock and Overlap Clock colors open the new picker, with the Appit palette first and any custom color one tab away
+new: Folder Colors From The Appit Palette - Right-click a folder > Folder Color for the Appit palette colors, or choose Custom Color… to pick any color right at the folder. Deep and near-black colors now show as a dark folder instead of a black block
+new: Click The Active App To Hide It - New setting in Settings > Dock > Apps > "Clicking the active app" - pick Hide and a click on the icon of the app you're using puts it away. None, the default, keeps today's macOS Dock behavior
+new: New Private Window For More Browsers - Right-click Opera (also GX, Air, beta and developer), Chromium, Arc, Firefox (also Developer Edition and Nightly) or Zen for New Window and New Private Window. If CoolDock needs a permission for it, a clear message tells you what to allow
+new: File Shelf Takes Browser Images - Images dragged out of Opera, Chrome or Safari, photos from Photos and other dragged-in files now land on the File Shelf, instead of lighting it up and adding nothing
+new: Previews Without The Layout Grid - Turn off "Window layout controls on previews" in Settings > Dock > Apps and a click on a preview simply brings that window to the front
+new: More AI Usage Widgets Your Way - Cursor, Copilot, GLM, Grok, OpenCode and Antigravity widgets can show the percent left and open the provider's website when you click them
+improved: Easier On Your Battery - CoolDock uses much less power while it sits idle. Loading placeholders stop shimmering after a few seconds, Quick Toggles and app badges no longer start background helpers every few seconds, and while your Mac is locked CoolDock pauses its clocks, badges and other background updates. Clocks that show hours and minutes update right on the minute
+improved: Steadier Updates - The update installer now starts in its own helper, and if macOS ever blocks an update, CoolDock asks you to quit and reopen instead of freezing
+improved: Ready For macOS 27 - Permission messages now say "Device Control and Data Access", the new name for Accessibility on macOS 27
+improved: More World Clock Cities - San Francisco, Austin, Boston, Munich, Tel Aviv and 14 more cities now show up in search
+improved: Better Diagnostics - Export Diagnostics keeps more details about updates so we can help you faster
+bug fix: Drop Files On Your Dock Apps - Drag a file out of the File Shelf, a folder, Screenshots or Trash gallery onto an app on the dock and it opens in that app - no more copies landing on your Desktop
+bug fix: No More "Missing" Cards - Dropping a File Shelf item back onto its own shelf adds nothing, instead of a broken "Missing" card. Files dragged from your other CoolDock galleries onto the File Shelf show the real file too
+bug fix: Drag Out Waits For The Drop - With "Remove after drag out" or "Ask every time" on, an item only leaves the shelf once you drop it somewhere else - press Escape or cancel the drag and it stays. "Ask every time" now asks after the drop, instead of stopping your drag
+bug fix: Swap At The Bottom - CoolDock stays out of the way while a macOS Dock right-click menu is open - no more two docks at once
+bug fix: Hide/Show Shortcut - One press is enough again after Reset Layout and with docks on all displays
+bug fix: Now Playing Cover - The first song after you resume Music shows its cover
+bug fix: Stacked Displays - Window layout controls place the window on its own display when one screen sits above another
