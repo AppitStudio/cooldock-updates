@@ -3,6 +3,64 @@
     <channel>
         <title>CoolDock</title>
         <item>
+            <title>2.2.4-beta.1</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Thu, 12 Nov 2026 18:17:51 +0200</pubDate>
+            <sparkle:version>68</sparkle:version>
+            <sparkle:shortVersionString>2.2.4-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/cooldock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>CoolDock 2.2.4 (Beta 1) - GIFs, AI At A Glance And Smarter Previews! 🎞️🤖</h2>
+
+        <h3>🆕 What's New</h3>
+        <ul>
+            <li><strong>GIF Widget:</strong> Play any GIF (or animated PNG/WebP) from your Mac right in the dock - a click can grow it out of the dock, open an app or folder, play a sound or open a link!</li>
+            <li><strong>AI Usage Overview:</strong> One tile with 1-4 AI providers of your choice, each with its limit, percent and reset time!</li>
+            <li><strong>Home Assistant Widget:</strong> Now in the widget picker - your token only goes to the server it was saved for, and unlocking a lock asks you first!</li>
+            <li><strong>Window Previews On A Key:</strong> Settings &gt; Dock &gt; Apps can open previews only while you hold ⌥ Option, ⌘ Command or ⌃ Control!</li>
+            <li><strong>Preview Delay:</strong> Choose how long the pointer rests on an app before its previews open!</li>
+            <li><strong>Shift-Click To This Screen:</strong> Shift-click an app icon to bring its front window to the display you clicked on!</li>
+            <li><strong>Move The macOS Dock Aside:</strong> An opt-in switch under Hide macOS Dock keeps the macOS Dock out of Mission Control - your own Dock comes back when you turn it off!</li>
+        </ul>
+
+        <h3>⚡ Improvements</h3>
+        <ul>
+            <li><strong>Applications Gallery:</strong> More apps load as you scroll - no more Load More button!</li>
+            <li><strong>Clear Messages:</strong> An alert when macOS refuses to open an app, and previews that say when Screen Recording is missing!</li>
+            <li><strong>Above macOS Dock:</strong> Follows the macOS Dock right away when you change its size or magnification!</li>
+            <li><strong>Other Languages:</strong> Focus, Zoom, Wi-Fi, Mail, Screenshots and more work better on Macs set to other languages!</li>
+        </ul>
+
+        <h3>🐞 Bug Fixes</h3>
+        <ul>
+            <li><strong>Minimized Windows:</strong> Clicking an app with minimized windows, or windows on another desktop, brings them back!</li>
+            <li><strong>No More Freeze:</strong> Restoring a minimized window no longer freezes the dock for a moment!</li>
+            <li><strong>Hidden Means Hidden:</strong> The macOS Dock no longer flashes under CoolDock when an app bounces for attention!</li>
+            <li><strong>Dot Badges:</strong> Discord and other dot badges show as a dot, not a red "1"!</li>
+            <li><strong>Fresh Thumbnails:</strong> File Shelf shows the new picture after you edit and save a file!</li>
+            <li><strong>Cursor Usage:</strong> Works again with Cursor 3.27 and later!</li>
+        </ul>
+
+        <h3>🧪 What To Test</h3>
+        <ul>
+            <li>Add the GIF widget and the AI Usage Overview - do they look and click right?</li>
+            <li>Set window previews to open on ⌥ Option, and try the Preview delay slider.</li>
+            <li>Minimize all of an app's windows and click its icon - does a window come back without a freeze?</li>
+            <li>With Hide macOS Dock and Move to the side on, open Mission Control - is the macOS Dock out of the way?</li>
+            <li>Shift-click an app icon on a second display - does its window move there?</li>
+        </ul>
+
+        <h3>What's Next?</h3>
+        <p>This is a beta build - please tell us how the new widgets, previews and window restores work for you! More features and improvements are on the way based on your feedback!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for testing CoolDock betas! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.2.4-beta.1/CoolDock.dmg" length="45895431" type="application/octet-stream" sparkle:edSignature="kDbi1zqXVyNc+bkupWeO1aajEanQ/4ktZUBRDjnp8wKI63pTLc7Emw7L0n8Dzd8W29R10svjXKFjMPr5MR3vBA=="/>
+        </item>
+        <item>
             <title>2.2.3</title>
             <pubDate>Tue, 10 Nov 2026 16:31:30 +0200</pubDate>
             <sparkle:version>67</sparkle:version>
