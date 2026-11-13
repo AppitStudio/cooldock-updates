@@ -3,6 +3,84 @@
     <channel>
         <title>CoolDock</title>
         <item>
+            <title>2.2.4-beta.2</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Fri, 13 Nov 2026 21:59:17 +0200</pubDate>
+            <sparkle:version>69</sparkle:version>
+            <sparkle:shortVersionString>2.2.4-beta.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/cooldock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>CoolDock 2.2.4 (Beta 2) - GIFs That Stick And Tidier Menus! 🎞️✨</h2>
+
+        <h3>🆕 New In Beta 2</h3>
+        <ul>
+            <li><strong>GIF Widget Setup Fixed:</strong> Choosing your own GIF no longer closes the widget library - your GIF now gets added to the dock!</li>
+            <li><strong>GIF Widget Looks Like CoolDock:</strong> A refreshed tile, icon and setup screen that match the rest of CoolDock, with room to see every option!</li>
+        </ul>
+
+        <h3>⚡ Improvements (Beta 2)</h3>
+        <ul>
+            <li><strong>Cleaner Menus:</strong> Dock and menu bar items no longer end with "…"!</li>
+        </ul>
+
+        <h3>🐞 Bug Fixes (Beta 2)</h3>
+        <ul>
+            <li><strong>Drink Water Corners:</strong> The Drink Water widget keeps its rounded corners when "Tile backgrounds &amp; borders" is off!</li>
+        </ul>
+
+        <h3>⏸️ Removed For Now</h3>
+        <ul>
+            <li><strong>Shift-Click To This Screen</strong> and <strong>Move The macOS Dock Aside</strong> from Beta 1 are switched off for now - Shift-click works like a normal click again, and if you had Move to the side on, your macOS Dock gets its usual edge and size back!</li>
+        </ul>
+
+        <h3>🆕 Also New In Beta 1</h3>
+        <ul>
+            <li><strong>GIF Widget:</strong> Play any GIF (or animated PNG/WebP) from your Mac right in the dock - a click can grow it out of the dock, open an app or folder, play a sound or open a link!</li>
+            <li><strong>AI Usage Overview:</strong> One tile with 1-4 AI providers of your choice, each with its limit, percent and reset time!</li>
+            <li><strong>Home Assistant Widget:</strong> Now in the widget picker - your token only goes to the server it was saved for, and unlocking a lock asks you first!</li>
+            <li><strong>Window Previews On A Key:</strong> Settings &gt; Dock &gt; Apps can open previews only while you hold ⌥ Option, ⌘ Command or ⌃ Control!</li>
+            <li><strong>Preview Delay:</strong> Choose how long the pointer rests on an app before its previews open!</li>
+        </ul>
+
+        <h3>⚡ Improvements (Beta 1)</h3>
+        <ul>
+            <li><strong>Applications Gallery:</strong> More apps load as you scroll - no more Load More button!</li>
+            <li><strong>Clear Messages:</strong> An alert when macOS refuses to open an app, and previews that say when Screen Recording is missing!</li>
+            <li><strong>Above macOS Dock:</strong> Follows the macOS Dock right away when you change its size or magnification!</li>
+            <li><strong>Other Languages:</strong> Focus, Zoom, Wi-Fi, Mail, Screenshots and more work better on Macs set to other languages!</li>
+        </ul>
+
+        <h3>🐞 Bug Fixes (Beta 1)</h3>
+        <ul>
+            <li><strong>Minimized Windows:</strong> Clicking an app with minimized windows, or windows on another desktop, brings them back!</li>
+            <li><strong>No More Freeze:</strong> Restoring a minimized window no longer freezes the dock for a moment!</li>
+            <li><strong>Hidden Means Hidden:</strong> The macOS Dock no longer flashes under CoolDock when an app bounces for attention!</li>
+            <li><strong>Dot Badges:</strong> Discord and other dot badges show as a dot, not a red "1"!</li>
+            <li><strong>Fresh Thumbnails:</strong> File Shelf shows the new picture after you edit and save a file!</li>
+            <li><strong>Cursor Usage:</strong> Works again with Cursor 3.27 and later!</li>
+        </ul>
+
+        <h3>🧪 What To Test</h3>
+        <ul>
+            <li>Add the GIF widget and choose your own GIF - does the library stay open and the GIF land in the dock?</li>
+            <li>Turn off "Tile backgrounds &amp; borders" - does Drink Water keep its rounded corners?</li>
+            <li>Shift-click an app icon - does it act like a normal click?</li>
+            <li>Add the AI Usage Overview - does it look and click right?</li>
+            <li>Set window previews to open on ⌥ Option, and try the Preview delay slider.</li>
+            <li>Minimize all of an app's windows and click its icon - does a window come back without a freeze?</li>
+        </ul>
+
+        <h3>What's Next?</h3>
+        <p>This is a beta build - please tell us how the GIF widget, previews and window restores work for you! More features and improvements are on the way based on your feedback!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for testing CoolDock betas! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.2.4-beta.2/CoolDock.dmg" length="45946053" type="application/octet-stream" sparkle:edSignature="Xm+L6oluhX5iAyqrashJkJAIskwQbDTS5y7kEEl428o7ooF+51c4KjgfNMwb/c/enKPWC1PoBxC1SRf743zVBA=="/>
+        </item>
+        <item>
             <title>2.2.4-beta.1</title>
             <sparkle:channel>beta</sparkle:channel>
             <pubDate>Thu, 12 Nov 2026 18:17:51 +0200</pubDate>
