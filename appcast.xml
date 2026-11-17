@@ -3,6 +3,117 @@
     <channel>
         <title>CoolDock</title>
         <item>
+            <title>2.2.4-beta.4</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Tue, 17 Nov 2026 15:26:45 +0200</pubDate>
+            <sparkle:version>71</sparkle:version>
+            <sparkle:shortVersionString>2.2.4-beta.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/cooldock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>CoolDock 2.2.4 (Beta 4) - Tidy Clipboard History And Faster Crash Fixes! 📋🛠️</h2>
+
+        <h3>🆕 New In Beta 4</h3>
+        <ul>
+            <li><strong>Remove From Clipboard History:</strong> Right-click an item in your clipboard history and choose Remove from History - it's gone from the list for good, even after you restart CoolDock! Your Mac's current clipboard stays as it is!</li>
+        </ul>
+
+        <h3>⚡ Improvements (Beta 4)</h3>
+        <ul>
+            <li><strong>Better Diagnostics:</strong> If CoolDock ever crashes, Export Diagnostics now includes the full crash details, so we can fix crashes faster - and the export stays quick!</li>
+        </ul>
+
+        <h3>🐞 Bug Fixes (Beta 4)</h3>
+        <ul>
+            <li><strong>GIF Widget Stays Fresh:</strong> When your GIF file is changed or replaced, the GIF widget (and its enlarged view) updates on its own - no need to switch profiles!</li>
+            <li><strong>Clean Profile Switch:</strong> Switching profiles while a GIF is enlarged no longer leaves the GIF on top of the new profile's icons - it closes as the switch starts!</li>
+            <li><strong>Trash From Other Drives:</strong> Emptying items that came from an external or second drive now turns the Trash tile empty within a few seconds instead of about a minute! (Network drives still refresh about once a minute.)</li>
+        </ul>
+
+        <h3>🆕 Also New In Beta 3</h3>
+        <ul>
+            <li><strong>Quick Look In The File Shelf:</strong> Press Space to preview the selected files (or the one under the pointer), just like in Finder - or right-click a file and choose Quick Look! Space or Escape closes the preview, and the arrow keys step through several files!</li>
+        </ul>
+
+        <h3>⚡ Improvements (Beta 3)</h3>
+        <ul>
+            <li><strong>GIF Widget Size:</strong> Your GIF now has the same size and rounded corners as the app icons next to it!</li>
+        </ul>
+
+        <h3>🐞 Bug Fixes (Beta 3)</h3>
+        <ul>
+            <li><strong>Steam Comes Back:</strong> Clicking Steam brings its minimized window back!</li>
+            <li><strong>One Dock At A Time:</strong> In Swap at the Bottom, reaching for the macOS Dock while the File Shelf is open now closes the shelf and lets the macOS Dock show - no more two docks on screen!</li>
+            <li><strong>Trash Empties Right Away:</strong> The Trash tile shows as empty after you empty the Trash, without a click!</li>
+        </ul>
+
+        <h3>🆕 Also New In Beta 2</h3>
+        <ul>
+            <li><strong>GIF Widget Setup Fixed:</strong> Choosing your own GIF no longer closes the widget library - your GIF now gets added to the dock!</li>
+            <li><strong>GIF Widget Looks Like CoolDock:</strong> A refreshed tile, icon and setup screen that match the rest of CoolDock, with room to see every option!</li>
+        </ul>
+
+        <h3>⚡ Improvements (Beta 2)</h3>
+        <ul>
+            <li><strong>Cleaner Menus:</strong> Dock and menu bar items no longer end with "…"!</li>
+        </ul>
+
+        <h3>🐞 Bug Fixes (Beta 2)</h3>
+        <ul>
+            <li><strong>Drink Water Corners:</strong> The Drink Water widget keeps its rounded corners when "Tile backgrounds &amp; borders" is off!</li>
+        </ul>
+
+        <h3>⏸️ Removed For Now</h3>
+        <ul>
+            <li><strong>Shift-Click To This Screen</strong> and <strong>Move The macOS Dock Aside</strong> from Beta 1 are switched off for now - Shift-click works like a normal click again, and if you had Move to the side on, your macOS Dock gets its usual edge and size back!</li>
+        </ul>
+
+        <h3>🆕 Also New In Beta 1</h3>
+        <ul>
+            <li><strong>GIF Widget:</strong> Play any GIF (or animated PNG/WebP) from your Mac right in the dock - a click can grow it out of the dock, open an app or folder, play a sound or open a link!</li>
+            <li><strong>AI Usage Overview:</strong> One tile with 1-4 AI providers of your choice, each with its limit, percent and reset time!</li>
+            <li><strong>Home Assistant Widget:</strong> Now in the widget picker - your token only goes to the server it was saved for, and unlocking a lock asks you first!</li>
+            <li><strong>Window Previews On A Key:</strong> Settings &gt; Dock &gt; Apps can open previews only while you hold ⌥ Option, ⌘ Command or ⌃ Control!</li>
+            <li><strong>Preview Delay:</strong> Choose how long the pointer rests on an app before its previews open!</li>
+        </ul>
+
+        <h3>⚡ Improvements (Beta 1)</h3>
+        <ul>
+            <li><strong>Applications Gallery:</strong> More apps load as you scroll - no more Load More button!</li>
+            <li><strong>Clear Messages:</strong> An alert when macOS refuses to open an app, and previews that say when Screen Recording is missing!</li>
+            <li><strong>Above macOS Dock:</strong> Follows the macOS Dock right away when you change its size or magnification!</li>
+            <li><strong>Other Languages:</strong> Focus, Zoom, Wi-Fi, Mail, Screenshots and more work better on Macs set to other languages!</li>
+        </ul>
+
+        <h3>🐞 Bug Fixes (Beta 1)</h3>
+        <ul>
+            <li><strong>Minimized Windows:</strong> Clicking an app with minimized windows, or windows on another desktop, brings them back!</li>
+            <li><strong>No More Freeze:</strong> Restoring a minimized window no longer freezes the dock for a moment!</li>
+            <li><strong>Hidden Means Hidden:</strong> The macOS Dock no longer flashes under CoolDock when an app bounces for attention!</li>
+            <li><strong>Dot Badges:</strong> Discord and other dot badges show as a dot, not a red "1"!</li>
+            <li><strong>Fresh Thumbnails:</strong> File Shelf shows the new picture after you edit and save a file!</li>
+            <li><strong>Cursor Usage:</strong> Works again with Cursor 3.27 and later!</li>
+        </ul>
+
+        <h3>🧪 What To Test</h3>
+        <ul>
+            <li>Right-click an item in your clipboard history and choose Remove from History - is it gone, and does it stay gone after you restart CoolDock?</li>
+            <li>Replace or edit the file behind your GIF widget - does the tile (and the enlarged GIF) update on its own?</li>
+            <li>Enlarge a GIF, then switch profiles - does the GIF close right away?</li>
+            <li>Delete a file from an external or second drive and empty the Trash - does the Trash tile turn empty within a few seconds?</li>
+            <li>Export Diagnostics - is it still quick?</li>
+        </ul>
+
+        <h3>What's Next?</h3>
+        <p>This is a beta build - please tell us how clipboard history, the GIF widget and the Trash tile work for you! More features and improvements are on the way based on your feedback!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for testing CoolDock betas! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.2.4-beta.4/CoolDock.dmg" length="46137911" type="application/octet-stream" sparkle:edSignature="S5VO5iwZW2++yuH9w5idVzbF1GrvycnhIEdk83irRfjIGXnFkeyjqjpvpa2Wr+3gN0h81mbeKLkN7py3baVcCQ=="/>
+        </item>
+        <item>
             <title>2.2.4-beta.3</title>
             <sparkle:channel>beta</sparkle:channel>
             <pubDate>Mon, 16 Nov 2026 13:17:44 +0200</pubDate>
