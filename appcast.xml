@@ -3,6 +3,40 @@
     <channel>
         <title>CoolDock</title>
         <item>
+            <title>2.2.4-beta.6</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Tue, 17 Nov 2026 21:56:19 +0200</pubDate>
+            <sparkle:version>73</sparkle:version>
+            <sparkle:shortVersionString>2.2.4-beta.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/cooldock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>CoolDock 2.2.4 (Beta 6) - Panels Open On The Desktop You're Using! 🖥️✨</h2>
+
+        <h3>🐞 Bug Fixes (Beta 6)</h3>
+        <ul>
+            <li><strong>Settings Comes To You:</strong> With several desktops (Spaces), opening Settings from the dock now brings it to the desktop you're on - no more jumping back to the desktop where CoolDock started, and no more Settings that seems not to open!</li>
+            <li><strong>Widget Panels Show Up Again:</strong> The widget picker, Clipboard, File Shelf, Trash and folder galleries now open on the desktop you're using - even after an app went full screen and back!</li>
+            <li><strong>Welcome And License Window:</strong> The welcome and license activation window also comes to the desktop you're on!</li>
+        </ul>
+
+        <h3>🧪 What To Test</h3>
+        <ul>
+            <li>With two or more desktops, open Settings from the dock on one desktop, switch to another desktop and open Settings again - does it come to you, without switching desktops?</li>
+            <li>Make an app full screen and then leave full screen, go to another desktop and open the widget picker, Clipboard, File Shelf, Trash or a folder - does the panel show up on the desktop you're on?</li>
+            <li>Do the panels still open and close normally on a single desktop?</li>
+        </ul>
+
+        <h3>What's Next?</h3>
+        <p>This is a beta build - please tell us how Settings and the widget panels behave across your desktops! More features and improvements are on the way based on your feedback!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for testing CoolDock betas! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.2.4-beta.6/CoolDock.dmg" length="46124353" type="application/octet-stream" sparkle:edSignature="j+gn8+JheIzmRPLFu4snwQFCdddOiUG0YnpMyeS4U9Sj5RTbu8SsORXdSSkvCx/OUVEthIfnMNrPgOqfCI2YAQ=="/>
+        </item>
+        <item>
             <title>2.2.4-beta.5</title>
             <sparkle:channel>beta</sparkle:channel>
             <pubDate>Tue, 17 Nov 2026 20:17:02 +0200</pubDate>
