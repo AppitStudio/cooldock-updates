@@ -3,6 +3,26 @@
     <channel>
         <title>CoolDock</title>
         <item>
+            <title>2.2.4-beta.5</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Tue, 17 Nov 2026 20:17:02 +0200</pubDate>
+            <sparkle:version>72</sparkle:version>
+            <sparkle:shortVersionString>2.2.4-beta.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/cooldock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>CoolDock 2.2.4 (Beta 5) - Claude Usage Connects Reliably! 📊✅</h2>
+
+        <h3>🐞 Bug Fixes (Beta 5)</h3>
+        <ul>
+            <li><strong>Claude Usage Connects Again:</strong> The Claude usage widget now reads your limits from Claude Code even when no 5-hour session is active - no more "connect" message or Keychain prompt just because you haven't started a session yet!</li>
+        </ul>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.2.4-beta.5/CoolDock.dmg" length="46136611" type="application/octet-stream" sparkle:edSignature="fiJVqfpGHhkFEboSID4cCCZzXhF7OLWnD4XNhBjN22d9fRTJelairrE/U6oSUkD9vvee9mXQr1+grKUe2OXnBg=="/>
+        </item>
+        <item>
             <title>2.2.4-beta.4</title>
             <sparkle:channel>beta</sparkle:channel>
             <pubDate>Tue, 17 Nov 2026 15:26:45 +0200</pubDate>
