@@ -1,23 +1,28 @@
-VERSION: 2.2.3
+VERSION: 2.2.4
 DETAILS:
 
-new: Hide The Dock From Screen Sharing - Settings > Privacy > Screen Sharing keeps the dock on your screen but out of Zoom, Meet and Teams shares, recordings and screenshots
-new: A Brand New Color Picker - Pixel Clock and Overlap Clock colors open the new picker, with the Appit palette first and any custom color one tab away
-new: Folder Colors From The Appit Palette - Right-click a folder > Folder Color for the Appit palette colors, or choose Custom Color… to pick any color right at the folder. Deep and near-black colors now show as a dark folder instead of a black block
-new: Click The Active App To Hide It - New setting in Settings > Dock > Apps > "Clicking the active app" - pick Hide and a click on the icon of the app you're using puts it away. None, the default, keeps today's macOS Dock behavior
-new: New Private Window For More Browsers - Right-click Opera (also GX, Air, beta and developer), Chromium, Arc, Firefox (also Developer Edition and Nightly) or Zen for New Window and New Private Window. If CoolDock needs a permission for it, a clear message tells you what to allow
-new: File Shelf Takes Browser Images - Images dragged out of Opera, Chrome or Safari, photos from Photos and other dragged-in files now land on the File Shelf, instead of lighting it up and adding nothing
-new: Previews Without The Layout Grid - Turn off "Window layout controls on previews" in Settings > Dock > Apps and a click on a preview simply brings that window to the front
-new: More AI Usage Widgets Your Way - Cursor, Copilot, GLM, Grok, OpenCode and Antigravity widgets can show the percent left and open the provider's website when you click them
-improved: Easier On Your Battery - CoolDock uses much less power while it sits idle. Loading placeholders stop shimmering after a few seconds, Quick Toggles and app badges no longer start background helpers every few seconds, and while your Mac is locked CoolDock pauses its clocks, badges and other background updates. Clocks that show hours and minutes update right on the minute
-improved: Steadier Updates - The update installer now starts in its own helper, and if macOS ever blocks an update, CoolDock asks you to quit and reopen instead of freezing
-improved: Ready For macOS 27 - Permission messages now say "Device Control and Data Access", the new name for Accessibility on macOS 27
-improved: More World Clock Cities - San Francisco, Austin, Boston, Munich, Tel Aviv and 14 more cities now show up in search
-improved: Better Diagnostics - Export Diagnostics keeps more details about updates so we can help you faster
-bug fix: Drop Files On Your Dock Apps - Drag a file out of the File Shelf, a folder, Screenshots or Trash gallery onto an app on the dock and it opens in that app - no more copies landing on your Desktop
-bug fix: No More "Missing" Cards - Dropping a File Shelf item back onto its own shelf adds nothing, instead of a broken "Missing" card. Files dragged from your other CoolDock galleries onto the File Shelf show the real file too
-bug fix: Drag Out Waits For The Drop - With "Remove after drag out" or "Ask every time" on, an item only leaves the shelf once you drop it somewhere else - press Escape or cancel the drag and it stays. "Ask every time" now asks after the drop, instead of stopping your drag
-bug fix: Swap At The Bottom - CoolDock stays out of the way while a macOS Dock right-click menu is open - no more two docks at once
-bug fix: Hide/Show Shortcut - One press is enough again after Reset Layout and with docks on all displays
-bug fix: Now Playing Cover - The first song after you resume Music shows its cover
-bug fix: Stacked Displays - Window layout controls place the window on its own display when one screen sits above another
+new: GIF Widget - Play any GIF (or animated PNG/WebP) from your Mac right in the dock, sized and rounded just like the app icons next to it - a click can grow it out of the dock, open an app or folder, play a sound or open a link! Change or replace the file and the widget updates on its own
+new: AI Usage Overview - One tile with 1-4 AI providers of your choice, each with its limit, percent and reset time
+new: Home Assistant Widget - Now in the widget picker - your token only goes to the server it was saved for, and unlocking a lock asks you first
+new: Quick Look In The File Shelf - Press Space to preview the selected files (or the one under the pointer), just like in Finder - or right-click a file and choose Quick Look. Space or Escape closes the preview, and the arrow keys step through several files
+new: Remove From Clipboard History - Right-click an item in your clipboard history and choose Remove from History - it's gone for good, even after you restart CoolDock, and your Mac's current clipboard stays as it is
+new: Window Previews On A Key - Settings > Dock > Apps can open previews only while you hold ⌥ Option, ⌘ Command or ⌃ Control
+new: Preview Delay - Choose how long the pointer rests on an app before its previews open
+improved: Applications Gallery - More apps load as you scroll - no more Load More button
+improved: Clear Messages - An alert when macOS refuses to open an app, and previews that say when Screen Recording is missing
+improved: Above macOS Dock - Follows the macOS Dock right away when you change its size or magnification
+improved: Other Languages - Focus, Zoom, Wi-Fi, Mail, Screenshots and more work better on Macs set to other languages
+improved: Cleaner Menus - Dock and menu bar items no longer end with "…"
+improved: Better Diagnostics - If CoolDock ever crashes, Export Diagnostics now includes the full crash details so we can fix it faster - and the export stays quick
+bug fix: Settings And Panels Come To You - With several desktops (Spaces), Settings, the welcome window, the widget picker, Clipboard, File Shelf, Trash and folder galleries open on the desktop you're using - even after an app went full screen and back
+bug fix: Minimized Windows - Clicking an app with minimized windows, or windows on another desktop, brings them back - and restoring a minimized window no longer freezes the dock for a moment
+bug fix: Steam Comes Back - Clicking Steam brings its minimized window back
+bug fix: Hidden Means Hidden - The macOS Dock no longer flashes under CoolDock when an app bounces for attention
+bug fix: One Dock At A Time - In Swap at the Bottom, reaching for the macOS Dock while the File Shelf is open closes the shelf and lets the macOS Dock show - no more two docks on screen
+bug fix: Trash Empties Right Away - The Trash tile turns empty as soon as you empty the Trash, also for files from an external or second drive
+bug fix: Dot Badges - Discord and other dot badges show as a dot, not a red "1"
+bug fix: Fresh Thumbnails - File Shelf shows the new picture after you edit and save a file
+bug fix: Claude Usage Connects Reliably - The Claude usage widget reads your limits from Claude Code even when no 5-hour session is active - no more "connect" message or Keychain prompt
+bug fix: Cursor Usage - Works again with Cursor 3.27 and later
+bug fix: Clean Profile Switch - Switching profiles while a GIF is enlarged closes the GIF right away instead of leaving it on top of the new profile
+bug fix: Drink Water Corners - The Drink Water widget keeps its rounded corners when "Tile backgrounds & borders" is off
