@@ -3,6 +3,75 @@
     <channel>
         <title>CoolDock</title>
         <item>
+            <title>2.2.5-beta.1</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Sun, 22 Nov 2026 11:38:35 +0200</pubDate>
+            <sparkle:version>75</sparkle:version>
+            <sparkle:shortVersionString>2.2.5-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/cooldock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>CoolDock 2.2.5 (Beta 1) - Settings Search, Dock Style And New Widgets! 🔍✨</h2>
+
+        <h3>✨ New Features (Beta 1)</h3>
+        <ul>
+            <li><strong>Settings search:</strong> a search field at the top of the Settings sidebar finds any setting. Pick a result and CoolDock opens that page and highlights the setting; Return opens the first result.</li>
+            <li><strong>Dock Style:</strong> Settings &gt; Appearance &gt; Dock Style is now two simple choices: Glass, Solid or Transparent, then Clear, Light, Dark or Automatic. Automatic follows your Mac's Light/Dark appearance as it changes.</li>
+            <li><strong>GPU widget:</strong> a GPU ring next to CPU and RAM in the System widgets. Click it to open Activity Monitor.</li>
+            <li><strong>Bluetooth Battery widget:</strong> battery levels of your connected keyboards, mice, headphones and other Bluetooth accessories, with a charging bolt when the accessory reports it. Right-click &gt; Configure Bluetooth Battery… to choose what it shows.</li>
+            <li><strong>On a Call widget:</strong> shows the app you're on a call in (FaceTime, Zoom, Teams, Slack, Discord, WhatsApp, a Google Meet tab and more) and how long the call has run. Click it to bring that app forward; right-click &gt; "Show while on a call" hides it between calls. Needs macOS 14.2 or later.</li>
+            <li><strong>Now Playing with several players:</strong> when Music, Spotify and a YouTube tab play at once, Expanded Now Playing shows a row per player with its own play/pause (and a volume slider where CoolDock can control that app). Mini and Bar show a count badge (click for the next player) and a "Show Player" menu.</li>
+            <li><strong>Folders as a Stack:</strong> right-click a Folder or App Folder tile &gt; Open As &gt; Stack opens a compact grid right at the tile, like a macOS Dock stack. Panel stays the default.</li>
+            <li><strong>Network folders:</strong> folders on a network share remember the share. Clicking one reconnects it (using your Keychain or the macOS Connect prompt), and the gallery offers Reconnect instead of looking empty while the share is away. You can also drag folders from Finder onto the dock to add them.</li>
+            <li><strong>Open in Finder</strong> button in the folder gallery opens the folder you are browsing, including subfolders.</li>
+            <li><strong>Drag a file onto a running app:</strong> hold the dragged file over the app's icon for a moment and the app comes forward, like the macOS Dock, so you can drop into its windows.</li>
+            <li><strong>macOS Dock on the Side layout:</strong> a new card in Settings &gt; Layout puts CoolDock at the bottom and the macOS Dock on the left side. Your own Dock position and size come back when you pick another layout or quit.</li>
+            <li><strong>Lock position</strong> for a Floating dock: Settings &gt; Layout &gt; Placement, or right-click the dock &gt; Lock Position.</li>
+            <li><strong>Bottom distance</strong> now goes up to 64 pt, with a new "Measure From" option (Screen Edge or Usable Area) so CoolDock can line up exactly with ExtraDock.</li>
+            <li><strong>Applications gallery can open on Favorites:</strong> right-click the Applications tile &gt; Open On &gt; Favorites.</li>
+            <li><strong>World Clock:</strong> shows AM/PM in 12-hour time, a sun or moon for day and night in each city, and has a new Time format option (System, 12-hour, 24-hour).</li>
+            <li><strong>Shift-click brings an app to this screen</strong> is back: Shift-click an app icon to move its front window to the display you clicked on.</li>
+            <li><strong>Move the macOS Dock to the side</strong> is back (opt-in, Settings &gt; Layout &gt; macOS Dock, shown while Hide macOS Dock is on), with a "Move to the Side" suggestion when the macOS Dock shares the bottom edge with CoolDock. It keeps the hidden macOS Dock out of Mission Control.</li>
+        </ul>
+
+        <h3>🚀 Improvements (Beta 1)</h3>
+        <ul>
+            <li><strong>Much lower CPU use for live charts</strong> (System, CPU, RAM, Network and Temperature): they animate more efficiently, stop sampling while the dock is hidden or the Mac is locked or asleep, and their numbers roll only on big jumps and settle down on a busy Mac. The CPU, RAM and GPU rings roll their number only on jumps of 5 points or more.</li>
+            <li><strong>App Folder and file galleries</strong> (Finder folders, Recent Files, Finder search) load more as you scroll; no more Load More button.</li>
+            <li><strong>Settings &gt; Privacy</strong> opens faster.</li>
+            <li><strong>A dock with nothing showing</strong> uses less CPU in the background.</li>
+            <li><strong>TikTok widget</strong> shows the exact follower count for large accounts.</li>
+        </ul>
+
+        <h3>🐞 Bug Fixes (Beta 1)</h3>
+        <ul>
+            <li><strong>Short dock pauses on every app switch</strong> on some Macs, caused by checking the Launch at Login status. That check now runs in the background.</li>
+            <li><strong>macOS Dock back on screen after a restart</strong> even though Hide macOS Dock is on: CoolDock now notices and hides it again.</li>
+            <li><strong>Exported diagnostics</strong> no longer hide newer log lines as "message omitted".</li>
+        </ul>
+
+        <h3>🧪 What To Test</h3>
+        <ul>
+            <li>Settings search: type a few words like "hide dock" or "launch at login" - does the right setting come up, and does clicking it take you there?</li>
+            <li>Dock Style: try Glass, Solid and Transparent with each tone, then Automatic while switching macOS between Light and Dark - does the dock follow?</li>
+            <li>Add the GPU, Bluetooth Battery and On a Call widgets - do they show the right values (and your call app during a call)?</li>
+            <li>Play Music, Spotify and a YouTube tab at once - do the Now Playing rows, badge and Show Player menu work?</li>
+            <li>Set a folder to Open As &gt; Stack, try a big folder, a network share folder and the Open in Finder button - does everything open where you expect?</li>
+            <li>Drag a file over a running app's icon and hold - does the app come forward so you can drop into it?</li>
+            <li>Try the new macOS Dock on the Side layout, Lock position, the bottom distance and Measure From options - does CoolDock land where you put it?</li>
+            <li>With System Chart or the CPU/RAM/GPU rings on the dock, does Activity Monitor show CoolDock using less CPU than before?</li>
+        </ul>
+
+        <h3>What's Next?</h3>
+        <p>This is a beta build - please tell us how the new search, Dock Style and widgets work for you! More features and improvements are on the way based on your feedback!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for testing CoolDock betas! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.2.5-beta.1/CoolDock.dmg" length="47349883" type="application/octet-stream" sparkle:edSignature="Fq866JaPo2RjYb7fLxXPwfRvtlkJYNav+UMIY0KjHs6zrzvUL3ACKMG7RqtLDZ40XVWWjhxDzKBoSaGUe3xkDQ=="/>
+        </item>
+        <item>
             <title>2.2.4</title>
             <pubDate>Wed, 18 Nov 2026 13:10:25 +0200</pubDate>
             <sparkle:version>74</sparkle:version>
