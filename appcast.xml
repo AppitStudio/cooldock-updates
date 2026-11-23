@@ -3,6 +3,104 @@
     <channel>
         <title>CoolDock</title>
         <item>
+            <title>2.2.5-beta.3</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Mon, 23 Nov 2026 15:28:20 +0200</pubDate>
+            <sparkle:version>77</sparkle:version>
+            <sparkle:shortVersionString>2.2.5-beta.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/cooldock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>CoolDock 2.2.5 (Beta 3) - AI Requests That Never Get Stuck And Clearer Previews! 🤖✨</h2>
+
+        <h3>🆕 New In Beta 3</h3>
+        <ul>
+            <li><strong>AI assistant requests can't get stuck:</strong> when an AI assistant asks to change your dock through CoolDock's AI connection, the confirmation now opens in its own "CoolDock AI Request" window that comes to the front on the Space you're on, even while another app is active. A request you don't answer now expires after 5 minutes and the next one shows up right away - so later requests no longer wait until you restart CoolDock!</li>
+            <li><strong>Profile switcher steps aside for window previews:</strong> with more than one profile, hovering an app icon no longer shows the profile switcher over or next to the window preview. The switcher tucks away while the preview is open and comes back after it closes!</li>
+        </ul>
+
+        <h3>🧪 What To Test In Beta 3</h3>
+        <ul>
+            <li>With another app in front, ask an AI assistant connected to CoolDock to make a change - does the "CoolDock AI Request" window come to the front on your current Space?</li>
+            <li>Leave a request unanswered for 5 minutes - does the next request show its window right away, without restarting CoolDock?</li>
+            <li>With two profiles, hover an app icon near the middle of the dock - does the window preview show without the profile switcher over it?</li>
+        </ul>
+
+
+        <h3>✨ Also New In Beta 2</h3>
+        <ul>
+            <li><strong>Launch fix:</strong> If CoolDock 2.2.5 Beta 1 closed right after opening for you, this beta fixes it. It happened when Dock Style was set to Automatic - CoolDock now opens normally and keeps following your Mac's Light/Dark appearance.</li>
+            <li><strong>Trash icon updates right away:</strong> After you empty the Trash, the Trash icon now turns empty within seconds, even for items you deleted from iCloud Drive and even without Full Disk Access. It used to take up to a minute!</li>
+            <li><strong>Shift-click stays on your Space:</strong> Shift-clicking an app whose window is on another Space no longer switches you to that Space. CoolDock beeps and leaves you where you are, because macOS doesn't let a window be brought over from a Space you can't see!</li>
+        </ul>
+
+        <h3>🧪 What To Test (Beta 2)</h3>
+        <ul>
+            <li>If Beta 1 closed on launch for you: does Beta 2 open and stay open, with Dock Style still on Automatic?</li>
+            <li>Delete a file from iCloud Drive, then empty the Trash - does the Trash icon turn empty within a few seconds?</li>
+            <li>Shift-click an app whose window is on another Space - do you stay on your current Space?</li>
+        </ul>
+
+        <h3>✨ Also New In Beta 1</h3>
+        <ul>
+            <li><strong>Settings search:</strong> a search field at the top of the Settings sidebar finds any setting. Pick a result and CoolDock opens that page and highlights the setting; Return opens the first result.</li>
+            <li><strong>Dock Style:</strong> Settings &gt; Appearance &gt; Dock Style is now two simple choices: Glass, Solid or Transparent, then Clear, Light, Dark or Automatic. Automatic follows your Mac's Light/Dark appearance as it changes.</li>
+            <li><strong>GPU widget:</strong> a GPU ring next to CPU and RAM in the System widgets. Click it to open Activity Monitor.</li>
+            <li><strong>Bluetooth Battery widget:</strong> battery levels of your connected keyboards, mice, headphones and other Bluetooth accessories, with a charging bolt when the accessory reports it. Right-click &gt; Configure Bluetooth Battery… to choose what it shows.</li>
+            <li><strong>On a Call widget:</strong> shows the app you're on a call in (FaceTime, Zoom, Teams, Slack, Discord, WhatsApp, a Google Meet tab and more) and how long the call has run. Click it to bring that app forward; right-click &gt; "Show while on a call" hides it between calls. Needs macOS 14.2 or later.</li>
+            <li><strong>Now Playing with several players:</strong> when Music, Spotify and a YouTube tab play at once, Expanded Now Playing shows a row per player with its own play/pause (and a volume slider where CoolDock can control that app). Mini and Bar show a count badge (click for the next player) and a "Show Player" menu.</li>
+            <li><strong>Folders as a Stack:</strong> right-click a Folder or App Folder tile &gt; Open As &gt; Stack opens a compact grid right at the tile, like a macOS Dock stack. Panel stays the default.</li>
+            <li><strong>Network folders:</strong> folders on a network share remember the share. Clicking one reconnects it (using your Keychain or the macOS Connect prompt), and the gallery offers Reconnect instead of looking empty while the share is away. You can also drag folders from Finder onto the dock to add them.</li>
+            <li><strong>Open in Finder</strong> button in the folder gallery opens the folder you are browsing, including subfolders.</li>
+            <li><strong>Drag a file onto a running app:</strong> hold the dragged file over the app's icon for a moment and the app comes forward, like the macOS Dock, so you can drop into its windows.</li>
+            <li><strong>macOS Dock on the Side layout:</strong> a new card in Settings &gt; Layout puts CoolDock at the bottom and the macOS Dock on the left side. Your own Dock position and size come back when you pick another layout or quit.</li>
+            <li><strong>Lock position</strong> for a Floating dock: Settings &gt; Layout &gt; Placement, or right-click the dock &gt; Lock Position.</li>
+            <li><strong>Bottom distance</strong> now goes up to 64 pt, with a new "Measure From" option (Screen Edge or Usable Area) so CoolDock can line up exactly with ExtraDock.</li>
+            <li><strong>Applications gallery can open on Favorites:</strong> right-click the Applications tile &gt; Open On &gt; Favorites.</li>
+            <li><strong>World Clock:</strong> shows AM/PM in 12-hour time, a sun or moon for day and night in each city, and has a new Time format option (System, 12-hour, 24-hour).</li>
+            <li><strong>Shift-click brings an app to this screen</strong> is back: Shift-click an app icon to move its front window to the display you clicked on.</li>
+            <li><strong>Move the macOS Dock to the side</strong> is back (opt-in, Settings &gt; Layout &gt; macOS Dock, shown while Hide macOS Dock is on), with a "Move to the Side" suggestion when the macOS Dock shares the bottom edge with CoolDock. It keeps the hidden macOS Dock out of Mission Control.</li>
+        </ul>
+
+        <h3>🚀 Improvements (Beta 1)</h3>
+        <ul>
+            <li><strong>Much lower CPU use for live charts</strong> (System, CPU, RAM, Network and Temperature): they animate more efficiently, stop sampling while the dock is hidden or the Mac is locked or asleep, and their numbers roll only on big jumps and settle down on a busy Mac. The CPU, RAM and GPU rings roll their number only on jumps of 5 points or more.</li>
+            <li><strong>App Folder and file galleries</strong> (Finder folders, Recent Files, Finder search) load more as you scroll; no more Load More button.</li>
+            <li><strong>Settings &gt; Privacy</strong> opens faster.</li>
+            <li><strong>A dock with nothing showing</strong> uses less CPU in the background.</li>
+            <li><strong>TikTok widget</strong> shows the exact follower count for large accounts.</li>
+        </ul>
+
+        <h3>🐞 Bug Fixes (Beta 1)</h3>
+        <ul>
+            <li><strong>Short dock pauses on every app switch</strong> on some Macs, caused by checking the Launch at Login status. That check now runs in the background.</li>
+            <li><strong>macOS Dock back on screen after a restart</strong> even though Hide macOS Dock is on: CoolDock now notices and hides it again.</li>
+            <li><strong>Exported diagnostics</strong> no longer hide newer log lines as "message omitted".</li>
+        </ul>
+
+        <h3>🧪 What To Test (Beta 1)</h3>
+        <ul>
+            <li>Settings search: type a few words like "hide dock" or "launch at login" - does the right setting come up, and does clicking it take you there?</li>
+            <li>Dock Style: try Glass, Solid and Transparent with each tone, then Automatic while switching macOS between Light and Dark - does the dock follow?</li>
+            <li>Add the GPU, Bluetooth Battery and On a Call widgets - do they show the right values (and your call app during a call)?</li>
+            <li>Play Music, Spotify and a YouTube tab at once - do the Now Playing rows, badge and Show Player menu work?</li>
+            <li>Set a folder to Open As &gt; Stack, try a big folder, a network share folder and the Open in Finder button - does everything open where you expect?</li>
+            <li>Drag a file over a running app's icon and hold - does the app come forward so you can drop into it?</li>
+            <li>Try the new macOS Dock on the Side layout, Lock position, the bottom distance and Measure From options - does CoolDock land where you put it?</li>
+            <li>With System Chart or the CPU/RAM/GPU rings on the dock, does Activity Monitor show CoolDock using less CPU than before?</li>
+        </ul>
+
+        <h3>What's Next?</h3>
+        <p>This is a beta build - please tell us how it works for you! More features and improvements are on the way based on your feedback!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for testing CoolDock betas! Your feedback drives every improvement we make.</em></p>
+            
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.2.5-beta.3/CoolDock.dmg" length="47366982" type="application/octet-stream" sparkle:edSignature="y1ABiA6UgoaYmbbU8L06G5/fthTpgs/+6Uf1rpsJmYH1nufFjn3xatZno1WBWbJMDTFyO6Wxnrm5wj0FI51QBQ=="/>
+        </item>
+        <item>
             <title>2.2.5-beta.2</title>
             <sparkle:channel>beta</sparkle:channel>
             <pubDate>Sun, 22 Nov 2026 20:07:41 +0200</pubDate>
