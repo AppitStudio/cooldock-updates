@@ -3,6 +3,34 @@
     <channel>
         <title>CoolDock</title>
         <item>
+            <title>2.2.6-beta.2</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Fri, 27 Nov 2026 15:32:05 +0200</pubDate>
+            <sparkle:version>81</sparkle:version>
+            <sparkle:shortVersionString>2.2.6-beta.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/cooldock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>CoolDock 2.2.6 (Beta 2) - Smoother Minimize on Every Screen! 🪟🖥️</h2>
+
+        <h3>🛠️ Fixed In Beta 2</h3>
+        <ul>
+            <li><strong>One minimize animation, not two:</strong> Minimize no longer plays the macOS animation and the window effect one after the other (seen with two displays). The effect now plays only when the instant system minimize is really in place!</li>
+        </ul>
+
+        <h3>🧪 What To Test In Beta 2</h3>
+        <ul>
+            <li>With two displays, minimize a window on each one - you should see only CoolDock's effect, flying into the dock on that window's display.</li>
+            <li>Everything from Beta 1: minimize, restore from the dock, each minimize and close effect, and quitting CoolDock.</li>
+        </ul>
+
+        <h3>📦 Also includes everything in Beta 1</h3>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.2.6-beta.2/CoolDock.dmg" length="47730771" type="application/octet-stream" sparkle:edSignature="Lpol6Jx4pSYbVfPFE6RePbyr9cN2l8AkFzO9j6HKfKyI3M/fJZ1L9P13SdbAZ9+QkTzEp58qvxn+RVldmhYBCQ=="/>
+        </item>
+        <item>
             <title>2.2.6-beta.1</title>
             <sparkle:channel>beta</sparkle:channel>
             <pubDate>Fri, 27 Nov 2026 13:31:32 +0200</pubDate>
