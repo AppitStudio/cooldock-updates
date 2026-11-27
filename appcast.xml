@@ -3,6 +3,34 @@
     <channel>
         <title>CoolDock</title>
         <item>
+            <title>2.2.6-beta.3</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Fri, 27 Nov 2026 17:28:00 +0200</pubDate>
+            <sparkle:version>82</sparkle:version>
+            <sparkle:shortVersionString>2.2.6-beta.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/cooldock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>CoolDock 2.2.6 (Beta 3) - Smoother Minimize on Every Screen! 🪟🖥️</h2>
+
+        <h3>🛠️ Fixed In Beta 3</h3>
+        <ul>
+            <li><strong>macOS 27:</strong> On macOS 27, Minimize Windows into CoolDock is now off and its switch is disabled. The macOS 27 Dock ignores the instant-minimize setting, so windows showed the macOS animation under the effect. On macOS 26 and earlier nothing changes!</li>
+        </ul>
+
+        <h3>🧪 What To Test In Beta 3</h3>
+        <ul>
+            <li>On macOS 27, the Minimize Windows into CoolDock switch is off and disabled, and minimizing a window plays only the macOS animation.</li>
+            <li>On macOS 26, everything from Beta 2: minimize on each display, restore from the dock, each minimize and close effect, and quitting CoolDock.</li>
+        </ul>
+
+        <h3>📦 Also includes everything in Beta 2</h3>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.2.6-beta.3/CoolDock.dmg" length="47733092" type="application/octet-stream" sparkle:edSignature="F5dftO7q9oJ47EbYfM6zLTyfWSdm/y8MoZMqEUqiZvMeJTTCHC9LUJHZaJOi3CJ1SCYwL5GvkcXlYlosAIYKCw=="/>
+        </item>
+        <item>
             <title>2.2.6-beta.2</title>
             <sparkle:channel>beta</sparkle:channel>
             <pubDate>Fri, 27 Nov 2026 15:32:05 +0200</pubDate>
