@@ -3,6 +3,37 @@
     <channel>
         <title>CoolDock</title>
         <item>
+            <title>2.2.6-beta.4</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Fri, 27 Nov 2026 21:51:27 +0200</pubDate>
+            <sparkle:version>83</sparkle:version>
+            <sparkle:shortVersionString>2.2.6-beta.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/cooldock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>CoolDock 2.2.6 (Beta 4) - Minimize into CoolDock on macOS 27! 🪟🖥️</h2>
+
+        <h3>🛠️ Fixed In Beta 4</h3>
+        <ul>
+            <li><strong>Back on macOS 27:</strong> Minimize Windows into CoolDock works on macOS 27 again, and its switch is no longer disabled. Beta 3 had turned it off there!</li>
+            <li><strong>Only one animation on every Mac:</strong> On Macs where the macOS setting "Minimize windows into application icon" was off, the macOS animation could still play under the effect. While Minimize Windows into CoolDock is on, CoolDock now turns that macOS setting on as well, and puts your own choice back when you turn the option off or quit CoolDock!</li>
+        </ul>
+
+        <h3>🧪 What To Test In Beta 4</h3>
+        <ul>
+            <li>On macOS 27, the Minimize Windows into CoolDock switch can be turned on, and a minimized window shows only the CoolDock effect, on each display.</li>
+            <li>On macOS 26 with "Minimize windows into application icon" off in System Settings › Desktop &amp; Dock, the same: only the CoolDock effect plays.</li>
+            <li>After you turn the option off or quit CoolDock, "Minimize windows into application icon" is back to what you had before.</li>
+            <li>Known limit: windows of apps that have no Dock icon still use the macOS animation.</li>
+        </ul>
+
+        <h3>📦 Also includes everything in Beta 2</h3>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.2.6-beta.4/CoolDock.dmg" length="47738366" type="application/octet-stream" sparkle:edSignature="Rb2ON6fZgsl9loC0kyp4195vqyHV1MyB0dTASpBvcuj01HXEdQuq2Wr1cPxLOaRoG0fQOt17GmCLCTdtj91sAg=="/>
+        </item>
+        <item>
             <title>2.2.6-beta.3</title>
             <sparkle:channel>beta</sparkle:channel>
             <pubDate>Fri, 27 Nov 2026 17:28:00 +0200</pubDate>
