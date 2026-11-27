@@ -1,28 +1,33 @@
-VERSION: 2.2.4
+VERSION: 2.2.5
 DETAILS:
 
-new: GIF Widget - Play any GIF (or animated PNG/WebP) from your Mac right in the dock, sized and rounded just like the app icons next to it - a click can grow it out of the dock, open an app or folder, play a sound or open a link! Change or replace the file and the widget updates on its own
-new: AI Usage Overview - One tile with 1-4 AI providers of your choice, each with its limit, percent and reset time
-new: Home Assistant Widget - Now in the widget picker - your token only goes to the server it was saved for, and unlocking a lock asks you first
-new: Quick Look In The File Shelf - Press Space to preview the selected files (or the one under the pointer), just like in Finder - or right-click a file and choose Quick Look. Space or Escape closes the preview, and the arrow keys step through several files
-new: Remove From Clipboard History - Right-click an item in your clipboard history and choose Remove from History - it's gone for good, even after you restart CoolDock, and your Mac's current clipboard stays as it is
-new: Window Previews On A Key - Settings > Dock > Apps can open previews only while you hold ⌥ Option, ⌘ Command or ⌃ Control
-new: Preview Delay - Choose how long the pointer rests on an app before its previews open
-improved: Applications Gallery - More apps load as you scroll - no more Load More button
-improved: Clear Messages - An alert when macOS refuses to open an app, and previews that say when Screen Recording is missing
-improved: Above macOS Dock - Follows the macOS Dock right away when you change its size or magnification
-improved: Other Languages - Focus, Zoom, Wi-Fi, Mail, Screenshots and more work better on Macs set to other languages
-improved: Cleaner Menus - Dock and menu bar items no longer end with "…"
-improved: Better Diagnostics - If CoolDock ever crashes, Export Diagnostics now includes the full crash details so we can fix it faster - and the export stays quick
-bug fix: Settings And Panels Come To You - With several desktops (Spaces), Settings, the welcome window, the widget picker, Clipboard, File Shelf, Trash and folder galleries open on the desktop you're using - even after an app went full screen and back
-bug fix: Minimized Windows - Clicking an app with minimized windows, or windows on another desktop, brings them back - and restoring a minimized window no longer freezes the dock for a moment
-bug fix: Steam Comes Back - Clicking Steam brings its minimized window back
-bug fix: Hidden Means Hidden - The macOS Dock no longer flashes under CoolDock when an app bounces for attention
-bug fix: One Dock At A Time - In Swap at the Bottom, reaching for the macOS Dock while the File Shelf is open closes the shelf and lets the macOS Dock show - no more two docks on screen
-bug fix: Trash Empties Right Away - The Trash tile turns empty as soon as you empty the Trash, also for files from an external or second drive
-bug fix: Dot Badges - Discord and other dot badges show as a dot, not a red "1"
-bug fix: Fresh Thumbnails - File Shelf shows the new picture after you edit and save a file
-bug fix: Claude Usage Connects Reliably - The Claude usage widget reads your limits from Claude Code even when no 5-hour session is active - no more "connect" message or Keychain prompt
-bug fix: Cursor Usage - Works again with Cursor 3.27 and later
-bug fix: Clean Profile Switch - Switching profiles while a GIF is enlarged closes the GIF right away instead of leaving it on top of the new profile
-bug fix: Drink Water Corners - The Drink Water widget keeps its rounded corners when "Tile backgrounds & borders" is off
+new: Settings Search - A search field at the top of the Settings sidebar finds any setting. Pick a result and CoolDock opens that page and highlights the setting - Return opens the first result
+new: Dock Style - Settings > Appearance > Dock Style is now two simple choices: Glass, Solid or Transparent, then Clear, Light, Dark or Automatic. Automatic follows your Mac's Light/Dark appearance as it changes
+new: Profiles Follow Your Focus Both Ways - CoolDock's Focus filter already switches to the profile you picked when a Focus turns on. Turn on Settings > Profiles > Switch from Other Apps > Switch Back When Focus Ends and CoolDock also goes back to your earlier profile when the Focus turns off - unless you picked another profile yourself in the meantime. The new Open Focus Settings… button takes you straight to System Settings > Focus
+new: GPU Widget - A GPU ring next to CPU and RAM in the System widgets - click it to open Activity Monitor
+new: Bluetooth Battery Widget - Battery levels of your connected keyboards, mice, headphones and other Bluetooth accessories, with a charging bolt when the accessory reports it. Right-click > Configure Bluetooth Battery… to choose what it shows
+new: On A Call Widget - Shows the app you're on a call in (FaceTime, Zoom, Teams, Slack, Discord, WhatsApp, a Google Meet tab and more) and how long the call has run. Click it to bring that app forward, or right-click > "Show while on a call" to hide it between calls. Needs macOS 14.2 or later
+new: Now Playing With Several Players - When Music, Spotify and a YouTube tab play at once, Expanded Now Playing shows a row per player with its own play/pause (and a volume slider where CoolDock can control that app). Mini and Bar show a count badge - click it for the next player - and a "Show Player" menu
+new: Folders As A Stack - Right-click a Folder or App Folder tile > Open As > Stack opens a compact grid right at the tile, like a macOS Dock stack. Panel stays the default
+new: Network Folders - Folders on a network share remember the share. Clicking one reconnects it (using your Keychain or the macOS Connect prompt), and the gallery offers Reconnect instead of looking empty while the share is away. You can also drag folders from Finder onto the dock to add them
+new: Open In Finder - A new button in the folder gallery opens the folder you are browsing, including subfolders
+new: Drag A File Onto A Running App - Hold a dragged file over the app's icon for a moment and the app comes forward, just like the macOS Dock, so you can drop into its windows
+new: macOS Dock On The Side Layout - A new card in Settings > Layout puts CoolDock at the bottom and the macOS Dock on the left side. Your own Dock position and size come back when you pick another layout or quit
+new: Move The macOS Dock To The Side - Opt-in in Settings > Layout > macOS Dock (shown while Hide macOS Dock is on), with a "Move to the Side" suggestion when the macOS Dock shares the bottom edge with CoolDock. It keeps the hidden macOS Dock out of Mission Control
+new: Shift-Click Brings An App To This Screen - Shift-click an app icon to move its front window to the display you clicked on
+new: Lock Position - Keep a Floating dock exactly where it is: Settings > Layout > Placement, or right-click the dock > Lock Position
+new: Bottom Distance - Now goes up to 64 pt, with a new "Measure From" option (Screen Edge or Usable Area) so CoolDock can line up exactly with ExtraDock
+new: Applications Gallery Can Open On Favorites - Right-click the Applications tile > Open On > Favorites
+new: World Clock - Shows AM/PM in 12-hour time, a sun or moon for day and night in each city, and has a new Time format option (System, 12-hour, 24-hour)
+improved: Much Lower CPU Use For Live Charts - System, CPU, RAM, Network and Temperature charts animate more efficiently, stop sampling while the dock is hidden or your Mac is locked or asleep, and their numbers settle down on a busy Mac. The CPU, RAM and GPU rings only roll their number on jumps of 5 points or more
+improved: AI Requests Never Get Stuck - When an AI assistant asks to change your dock through CoolDock's AI connection, the confirmation opens in its own "CoolDock AI Request" window that comes to the front on the Space you're on. A request you don't answer expires after 5 minutes and the next one shows up right away
+improved: Clearer Window Previews - With more than one profile, the profile switcher tucks away while a window preview is open and comes back after it closes
+improved: Galleries Load As You Scroll - App Folder and file galleries (Finder folders, Recent Files, Finder search) load more as you scroll - no more Load More button
+improved: Faster Settings - Settings > Privacy opens faster
+improved: Lighter In The Background - A dock with nothing showing uses less CPU
+improved: TikTok Widget - Shows the exact follower count for large accounts
+bug fix: No More Pauses On App Switch - On some Macs the dock paused briefly every time you switched apps. That's gone
+bug fix: macOS Dock Stays Hidden After A Restart - If the macOS Dock came back on screen after a restart even though Hide macOS Dock is on, CoolDock now notices and hides it again
+bug fix: Trash Icon Updates Right Away - After you empty the Trash, the Trash icon turns empty within seconds - even for items you deleted from iCloud Drive and even without Full Disk Access
+bug fix: Shift-Click Stays On Your Space - Shift-clicking an app whose window is on another Space no longer switches you to that Space. CoolDock beeps and leaves you where you are
+bug fix: Complete Diagnostics - Exported diagnostics no longer hide newer log lines as "message omitted"
