@@ -3,6 +3,37 @@
     <channel>
         <title>CoolDock</title>
         <item>
+            <title>2.2.6-beta.1</title>
+            <sparkle:channel>beta</sparkle:channel>
+            <pubDate>Fri, 27 Nov 2026 13:31:32 +0200</pubDate>
+            <sparkle:version>80</sparkle:version>
+            <sparkle:shortVersionString>2.2.6-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/cooldock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>CoolDock 2.2.6 (Beta 1) - Windows That Fly Into Your Dock! 🪟✨</h2>
+
+        <h3>🆕 New In Beta 1</h3>
+        <ul>
+            <li><strong>Minimize Windows into CoolDock (Beta):</strong> With a Replace layout (Settings &gt; Layout: Replace the macOS Dock, or Replace &amp; Auto-Hide), turn on Settings &gt; Dock &gt; Window Effects &gt; Minimize Windows into CoolDock, and a window you minimize flies straight into its app's icon on your dock instead of the hidden macOS Dock. Click the icon and it flies back out!</li>
+            <li><strong>Minimize effects (Beta):</strong> Pick how a window leaves the screen: Fly to Dock, Fade, Shatter, Explode or Black Hole!</li>
+            <li><strong>Close effects (Beta):</strong> Choose an effect under Window Effects &gt; When a window closes, and windows you close fade, shatter, explode or fall into a black hole. Works with any layout!</li>
+            <li><strong>Clear about Screen Recording:</strong> Window effects show a picture of the window, which needs Screen Recording. CoolDock tells you before you turn an effect on, so the macOS permission prompt never comes as a surprise. You can also use the effects without window pictures!</li>
+        </ul>
+
+        <h3>🧪 What To Test In Beta 1</h3>
+        <ul>
+            <li>Minimize windows with the yellow button and with Command-M - does each one fly into the right icon on your dock, with no blink?</li>
+            <li>Click a minimized app's icon on your dock - do its windows fly back out and stay put?</li>
+            <li>Try each minimize and close effect, and close a browser tab with Command-W - only whole windows should play an effect.</li>
+            <li>Quit CoolDock - is the macOS Dock and its normal minimize animation back?</li>
+        </ul>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/cooldock-updates/releases/download/v2.2.6-beta.1/CoolDock.dmg" length="47724918" type="application/octet-stream" sparkle:edSignature="MUOJgE/12QBPpu3cH4h+HPuP4K7JqX6JCEVa6hCl0o8kQZJGuChCns+UytfwZVY+f/WuaoeIGtFBmjWAB7qdDg=="/>
+        </item>
+        <item>
             <title>2.2.5</title>
             <pubDate>Fri, 27 Nov 2026 11:40:12 +0200</pubDate>
             <sparkle:version>79</sparkle:version>
